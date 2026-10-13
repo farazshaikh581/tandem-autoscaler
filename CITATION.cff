@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper below."
+title: "TANDEM: Risk-Sensitive Joint Horizontal and Vertical Autoscaling of Containerized Network Services with In-Place Pod Resizing"
+authors:
+  - family-names: Shaikh
+    given-names: Faraz
+    orcid: "https://orcid.org/0009-0005-7815-8283"
+  - family-names: Reali
+    given-names: Gianluca
+  - family-names: Femminella
+    given-names: Mauro
+    orcid: "https://orcid.org/0000-0002-6695-5956"
+license: MIT
+repository-code: "https://github.com/farazshaikh581/tandem-autoscaler"

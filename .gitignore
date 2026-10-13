@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# experiment outputs (kept out of git until we decide to snapshot a run)
+phase0/results/
+*.log
+
+# raw trace data (large; downloaded, not committed)
+phase1/data/
+*.zip
+
+# trained model binaries + tensorboard (large; eval CSVs are committed instead)
+phase1/models/
+phase1/tb/
+
+# real-cluster replay outputs (regenerated per run; commit a snapshot deliberately)
+phase1/eval/real_*.csv
+
+# run-lane completion sentinels (scratch markers dropped by the run scripts)
+phase1/eval/.*_done
+phase0/.*_done
+
+# Pareto-sweep dispatch scratch (per-lane job files + lane->pid manifest, regenerated)
+phase1/jobs/
+phase1/pareto_lanes*.manifest
+# ad-hoc run chains and lane logs
+phase1/logs/
+
+# capacity grid printed by calibrate_capacity.py: derived, read by nothing, and
+# regenerated per run (fn_profiles.json IS read by the env, so that one is committed)
+phase2/capacity.json
+
+# never commit credentials
+api_keys.conf
+*.token
+.env
+
+# workload traces are rebuilt from the public datasets (phase1/build_traces.py)
+phase1/traces/
+phase1/traces_bitbrains/
+phase1/traces_heldout/
+phase1/traces_heldout_bitbrains/
+phase1/traces_train/
+phase1/traces_train_bitbrains/
+phase2/traces/

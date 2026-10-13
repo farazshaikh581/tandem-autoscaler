@@ -1,0 +1,5 @@
+tenant,run,sla_pct,mean_lat_ms,replica_reversals,cpu_reversals,mem_reversals
+"cpu-burn (QR-DQN, cpu-bound)",solo,100.0,4.37,0,0,0
+"cpu-burn (QR-DQN, cpu-bound)",coupled,100.0,4.29,0,0,0
+"io-burn (Option B, io-bound)",solo,100.0,11.6,0,0,0
+"io-burn (Option B, io-bound)",coupled,100.0,9.92,0,0,0

@@ -1,0 +1,38 @@
+# KEDA ScaledObject for BOTH real-cluster baselines (`keda` and `keda-vpa`): KEDA
+# owns horizontal scaling via a CPU utilization trigger ONLY -- the same axis the
+# sim baselines' HPA uses (ClassicalController in eval_baselines.py scales on CPU
+# util, never on memory). The two variants differ only in the memory axis:
+#   * keda      -- driver passive; the memory request is left at baseline. The
+#                  production analogue of the sim `hpa-only` row.
+#   * keda-vpa  -- driver right-sizes the memory request in-loop with the
+#                  working-set x1.15 VPA rule (eval_real_keda.py --vpa). The
+#                  analogue of `hpa-vpa` -- HPA on CPU, VPA on memory, the
+#                  recommended split -- so KEDA must NOT also scale on memory.
+#
+#   kubectl apply  -f phase1/keda/scaledobject-cpu.yaml
+#   kubectl delete -f phase1/keda/scaledobject-cpu.yaml
+# (run_keda_real.sh cycles this automatically.)
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: web-service-keda
+  namespace: hv-phase0
+spec:
+  scaleTargetRef:
+    name: web-service
+  minReplicaCount: 1          # REPLICA_MIN  (phase1/envs/joint_hv_env.py:32)
+  maxReplicaCount: 12         # REPLICA_MAX
+  pollingInterval: 8          # ~= step_seconds (real_backend.DEFAULT_STEP_SECONDS)
+  cooldownPeriod: 60
+  advanced:
+    horizontalPodAutoscalerConfig:
+      behavior:
+        scaleDown:
+          # analogue of the sim HPA's HPA_SCALEDOWN_STAB=3 steps
+          # (eval_baselines.py:60); ~3 x 15s decision interval
+          stabilizationWindowSeconds: 45
+  triggers:
+    - type: cpu
+      metricType: Utilization
+      metadata:
+        value: "70"          # sim HPA_TARGET_UTIL = 0.70 (eval_baselines.py:58)

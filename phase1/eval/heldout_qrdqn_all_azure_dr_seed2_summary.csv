@@ -1,0 +1,5 @@
+workload,n_vms,sla_pct_indist,sla_pct_heldout_mean,sla_pct_heldout_std,mean_lat_ms_indist,mean_lat_ms_heldout_mean,mean_lat_ms_heldout_std,mean_cost_vcpu_indist,mean_cost_vcpu_heldout_mean,mean_cost_vcpu_heldout_std,churn_indist,churn_heldout_mean,churn_heldout_std,replica_reversals_indist,replica_reversals_heldout_mean,replica_reversals_heldout_std,cpu_reversals_indist,cpu_reversals_heldout_mean,cpu_reversals_heldout_std,mem_reversals_indist,mem_reversals_heldout_mean,mem_reversals_heldout_std
+cpu-bound,4,99.6,97.62,0.25,6.9,14.35,0.96,1.46,7.49,0.69,13.0,48.0,10.95,0.0,0.0,0.0,0.0,0.0,0.0,2.0,0.0,0.0
+memory-bound,4,98.0,98.57,0.45,5.5,5.42,0.13,0.66,1.0,0.14,107.0,136.25,52.59,3.0,5.5,9.11,0.0,5.25,6.08,0.0,8.5,14.46
+io-bound,4,99.3,98.7,0.22,7.8,9.55,0.25,2.94,3.91,0.47,30.0,54.75,10.63,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mixed,4,99.0,98.32,0.17,22.0,11.18,0.51,4.13,5.07,0.28,80.0,106.0,26.28,0.0,0.0,0.0,0.0,4.75,4.35,0.0,0.0,0.0

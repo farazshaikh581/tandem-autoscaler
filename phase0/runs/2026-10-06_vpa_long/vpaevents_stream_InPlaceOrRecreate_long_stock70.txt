@@ -1,0 +1,200 @@
+2026-10-06T15:26:32Z   Killing   Pod   web-service-94d898cb6-gc5tc   1     Stopping container web
+2026-10-06T15:26:32Z   EvictedByVPA   Pod   web-service-94d898cb6-gc5tc   1     Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:26:32Z   EvictedPod     VerticalPodAutoscaler   web-service                   1     VPA Updater evicted Pod web-service-94d898cb6-gc5tc to apply resource recommendation.
+2026-10-06T15:26:33Z   SuccessfulCreate   ReplicaSet              web-service-94d898cb6         1     Created pod: web-service-94d898cb6-f5rj9
+<nil>                  Scheduled          Pod                     web-service-94d898cb6-f5rj9   <none>   Successfully assigned hv-phase0/web-service-94d898cb6-f5rj9 to k8s-worker1
+2026-10-06T15:26:33Z   Pulled             Pod                     web-service-94d898cb6-f5rj9   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:26:33Z   Created            Pod                     web-service-94d898cb6-f5rj9   1        Container created
+2026-10-06T15:26:33Z   Started            Pod                     web-service-94d898cb6-f5rj9   1        Container started
+2026-10-06T15:27:01Z   EvictedByVPA       Pod                     web-service-94d898cb6-hh6r6   1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:27:01Z   Killing            Pod                     web-service-94d898cb6-hh6r6   1        Stopping container web
+2026-10-06T15:27:01Z   SuccessfulCreate   ReplicaSet              web-service-94d898cb6         1        Created pod: web-service-94d898cb6-8rn8z
+<nil>                  Scheduled          Pod                     web-service-94d898cb6-8rn8z   <none>   Successfully assigned hv-phase0/web-service-94d898cb6-8rn8z to k8s-worker2
+2026-10-06T15:27:01Z   EvictedPod         VerticalPodAutoscaler   web-service                   1        VPA Updater evicted Pod web-service-94d898cb6-hh6r6 to apply resource recommendation.
+2026-10-06T15:27:02Z   Pulled             Pod                     web-service-94d898cb6-8rn8z   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:27:02Z   Created            Pod                     web-service-94d898cb6-8rn8z   1        Container created
+2026-10-06T15:27:02Z   Started            Pod                     web-service-94d898cb6-8rn8z   1        Container started
+2026-10-06T15:27:17Z   EvictedByVPA       Pod                     web-service-94d898cb6-8rn8z   1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:27:17Z   Killing            Pod                     web-service-94d898cb6-8rn8z   1        Stopping container web
+2026-10-06T15:27:17Z   EvictedPod         VerticalPodAutoscaler   web-service                   1        VPA Updater evicted Pod web-service-94d898cb6-8rn8z to apply resource recommendation.
+<nil>                  Scheduled          Pod                     web-service-94d898cb6-fc9lc   <none>   Successfully assigned hv-phase0/web-service-94d898cb6-fc9lc to k8s-worker2
+2026-10-06T15:27:18Z   Pulled             Pod                     web-service-94d898cb6-fc9lc   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:27:18Z   Created            Pod                     web-service-94d898cb6-fc9lc   1        Container created
+2026-10-06T15:27:18Z   Started            Pod                     web-service-94d898cb6-fc9lc   1        Container started
+2026-10-06T16:28:23Z   SuccessfulRescale   HorizontalPodAutoscaler   web-service                   1        New size: 3; reason: cpu resource utilization (percentage of request) above target
+2026-10-06T16:28:23Z   SuccessfulCreate    ReplicaSet                web-service-7f7498b47b        1        Created pod: web-service-7f7498b47b-7qlg7
+<nil>                  Scheduled           Pod                       web-service-7f7498b47b-7qlg7   <none>   Successfully assigned hv-phase0/web-service-7f7498b47b-7qlg7 to k8s-worker2
+2026-10-06T16:28:24Z   Pulled              Pod                       web-service-7f7498b47b-7qlg7   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T16:28:24Z   Created             Pod                       web-service-7f7498b47b-7qlg7   1        Container created
+2026-10-06T16:28:24Z   Started             Pod                       web-service-7f7498b47b-7qlg7   1        Container started
+2026-10-06T15:29:47Z   EvictedByVPA        Pod                       web-service-94d898cb6-fc9lc    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:29:47Z   Killing             Pod                       web-service-94d898cb6-fc9lc    1        Stopping container web
+2026-10-06T15:29:47Z   EvictedPod          VerticalPodAutoscaler     web-service                    1        VPA Updater evicted Pod web-service-94d898cb6-fc9lc to apply resource recommendation.
+<nil>                  Scheduled           Pod                       web-service-94d898cb6-lvsjt    <none>   Successfully assigned hv-phase0/web-service-94d898cb6-lvsjt to k8s-worker2
+2026-10-06T15:29:47Z   Pulled              Pod                       web-service-94d898cb6-lvsjt    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:29:47Z   Created             Pod                       web-service-94d898cb6-lvsjt    1        Container created
+2026-10-06T15:29:47Z   Started             Pod                       web-service-94d898cb6-lvsjt    1        Container started
+2026-10-06T15:30:17Z   EvictedByVPA        Pod                       web-service-94d898cb6-lvsjt    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:30:17Z   Killing             Pod                       web-service-94d898cb6-lvsjt    1        Stopping container web
+2026-10-06T15:30:17Z   EvictedPod          VerticalPodAutoscaler     web-service                    1        (combined from similar events): VPA Updater evicted Pod web-service-94d898cb6-lvsjt to apply resource recommendation.
+2026-10-06T15:30:17Z   SuccessfulCreate    ReplicaSet                web-service-94d898cb6          3        (combined from similar events): Created pod: web-service-94d898cb6-nrmrd
+<nil>                  Scheduled           Pod                       web-service-94d898cb6-nrmrd    <none>   Successfully assigned hv-phase0/web-service-94d898cb6-nrmrd to k8s-worker2
+2026-10-06T15:30:17Z   Pulled              Pod                       web-service-94d898cb6-nrmrd    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:30:18Z   Created             Pod                       web-service-94d898cb6-nrmrd    1        Container created
+2026-10-06T15:30:18Z   Started             Pod                       web-service-94d898cb6-nrmrd    1        Container started
+2026-10-06T15:38:00Z   ScalingReplicaSet   Deployment                web-service                    1        Scaled up replica set web-service-5fd9ffd9b9 from 0 to 1
+2026-10-06T15:38:00Z   SuccessfulCreate    ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-czl5g
+<nil>                  Scheduled           Pod                       web-service-5fd9ffd9b9-czl5g   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-czl5g to k8s-worker1
+2026-10-06T15:38:01Z   Pulled              Pod                       web-service-5fd9ffd9b9-czl5g   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:38:01Z   Created             Pod                       web-service-5fd9ffd9b9-czl5g   1        Container created
+2026-10-06T15:38:01Z   Started             Pod                       web-service-5fd9ffd9b9-czl5g   1        Container started
+2026-10-06T15:38:07Z   ScalingReplicaSet   Deployment                web-service                    1        Scaled down replica set web-service-94d898cb6 from 2 to 1
+2026-10-06T15:38:07Z   Killing             Pod                       web-service-94d898cb6-f5rj9    1        Stopping container web
+2026-10-06T15:38:07Z   SuccessfulDelete    ReplicaSet                web-service-94d898cb6          1        Deleted pod: web-service-94d898cb6-f5rj9
+2026-10-06T15:38:07Z   ScalingReplicaSet   Deployment                web-service                    1        Scaled up replica set web-service-5fd9ffd9b9 from 1 to 2
+2026-10-06T15:38:07Z   SuccessfulCreate    ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-ch78l
+<nil>                  Scheduled           Pod                       web-service-5fd9ffd9b9-ch78l   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-ch78l to k8s-worker2
+2026-10-06T15:38:08Z   Pulled              Pod                       web-service-5fd9ffd9b9-ch78l   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:38:08Z   Created             Pod                       web-service-5fd9ffd9b9-ch78l   1        Container created
+2026-10-06T15:38:08Z   Started             Pod                       web-service-5fd9ffd9b9-ch78l   1        Container started
+2026-10-06T15:38:15Z   SuccessfulDelete    ReplicaSet                web-service-94d898cb6          1        Deleted pod: web-service-94d898cb6-nrmrd
+2026-10-06T15:38:15Z   Killing             Pod                       web-service-94d898cb6-nrmrd    1        Stopping container web
+2026-10-06T15:39:17Z   ResizeStarted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"250m","memory":"256Mi"},"requests":{"cpu":"100m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:39:18Z   ResizeCompleted     Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"250m","memory":"256Mi"},"requests":{"cpu":"100m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:39:31Z   SuccessfulCreate    ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-fzxjm
+<nil>                  Scheduled           Pod                       web-service-5fd9ffd9b9-fzxjm   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-fzxjm to k8s-worker2
+2026-10-06T15:39:31Z   SuccessfulCreate    ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-w26fn
+<nil>                  Scheduled           Pod                       web-service-5fd9ffd9b9-w26fn   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-w26fn to k8s-worker1
+2026-10-06T15:39:31Z   Pulled              Pod                       web-service-5fd9ffd9b9-w26fn   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:39:31Z   Created             Pod                       web-service-5fd9ffd9b9-w26fn   1        Container created
+2026-10-06T15:39:32Z   Pulled              Pod                       web-service-5fd9ffd9b9-fzxjm   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:39:32Z   Started             Pod                       web-service-5fd9ffd9b9-w26fn   1        Container started
+2026-10-06T15:39:32Z   Created             Pod                       web-service-5fd9ffd9b9-fzxjm   1        Container created
+2026-10-06T15:39:32Z   Started             Pod                       web-service-5fd9ffd9b9-fzxjm   1        Container started
+2026-10-06T15:39:46Z   ResizeStarted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"507m","memory":"256Mi"},"requests":{"cpu":"203m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:39:46Z   ResizeStarted       Pod                       web-service-5fd9ffd9b9-w26fn   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"507m","memory":"256Mi"},"requests":{"cpu":"203m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:39:46Z   InPlaceResizedByVPA   Pod                       web-service-5fd9ffd9b9-w26fn   1        Pod was resized in place by VPA Updater.
+2026-10-06T15:39:47Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"507m","memory":"256Mi"},"requests":{"cpu":"203m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:39:47Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-w26fn   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"507m","memory":"256Mi"},"requests":{"cpu":"203m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:40:01Z   SuccessfulRescale     HorizontalPodAutoscaler   web-service                    1        New size: 2; reason: All metrics below target
+2026-10-06T15:40:01Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-w26fn
+2026-10-06T15:40:01Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-fzxjm
+2026-10-06T15:40:01Z   Killing               Pod                       web-service-5fd9ffd9b9-w26fn   1        Stopping container web
+2026-10-06T15:40:01Z   Killing               Pod                       web-service-5fd9ffd9b9-fzxjm   1        Stopping container web
+2026-10-06T15:40:46Z   SuccessfulRescale     HorizontalPodAutoscaler   web-service                    1        New size: 3; reason: cpu resource utilization (percentage of request) above target
+2026-10-06T15:40:46Z   ScalingReplicaSet     Deployment                web-service                    1        Scaled up replica set web-service-5fd9ffd9b9 from 2 to 3
+2026-10-06T15:40:47Z   SuccessfulCreate      ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-cpj5k
+<nil>                  Scheduled             Pod                       web-service-5fd9ffd9b9-cpj5k   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-cpj5k to k8s-worker2
+2026-10-06T15:40:47Z   Pulled                Pod                       web-service-5fd9ffd9b9-cpj5k   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:40:47Z   Created               Pod                       web-service-5fd9ffd9b9-cpj5k   1        Container created
+2026-10-06T15:40:47Z   Started               Pod                       web-service-5fd9ffd9b9-cpj5k   1        Container started
+2026-10-06T15:43:17Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"454m","memory":"256Mi"},"requests":{"cpu":"182m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:43:17Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"454m","memory":"256Mi"},"requests":{"cpu":"182m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:43:31Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"407m","memory":"256Mi"},"requests":{"cpu":"163m","memory":"128Mi"}}}],"generation":4}
+2026-10-06T15:43:32Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"407m","memory":"256Mi"},"requests":{"cpu":"163m","memory":"128Mi"}}}],"generation":4}
+2026-10-06T15:43:46Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"357m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:43:46Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"357m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:44:01Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"406m","memory":"256Mi"},"requests":{"cpu":"163m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:44:02Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"406m","memory":"256Mi"},"requests":{"cpu":"163m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:44:16Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"406m","memory":"256Mi"},"requests":{"cpu":"163m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:44:16Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"406m","memory":"256Mi"},"requests":{"cpu":"163m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:44:31Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"357m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":5}
+2026-10-06T15:44:31Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"357m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":5}
+2026-10-06T15:44:46Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"356m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":4}
+2026-10-06T15:44:47Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"356m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":4}
+2026-10-06T15:45:01Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"356m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":4}
+2026-10-06T15:45:01Z   SuccessfulRescale     HorizontalPodAutoscaler   web-service                    2        New size: 4; reason: cpu resource utilization (percentage of request) above target
+2026-10-06T15:45:01Z   SuccessfulCreate      ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-s8m9h
+<nil>                  Scheduled             Pod                       web-service-5fd9ffd9b9-s8m9h   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-s8m9h to k8s-worker1
+2026-10-06T15:45:02Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"356m","memory":"256Mi"},"requests":{"cpu":"143m","memory":"128Mi"}}}],"generation":4}
+2026-10-06T15:45:02Z   Pulled                Pod                       web-service-5fd9ffd9b9-s8m9h   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:45:02Z   Created               Pod                       web-service-5fd9ffd9b9-s8m9h   1        Container created
+2026-10-06T15:45:02Z   Started               Pod                       web-service-5fd9ffd9b9-s8m9h   1        Container started
+2026-10-06T15:48:31Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"313m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":5}
+2026-10-06T15:48:31Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"314m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":6}
+2026-10-06T15:48:32Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"314m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":6}
+2026-10-06T15:48:32Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"313m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":5}
+2026-10-06T15:48:46Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-s8m9h   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"314m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:48:46Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"313m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":5}
+2026-10-06T15:48:47Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-s8m9h   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"314m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":2}
+2026-10-06T15:48:47Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"313m","memory":"256Mi"},"requests":{"cpu":"126m","memory":"128Mi"}}}],"generation":5}
+2026-10-06T15:49:17Z   InPlaceResizedByVPA   Pod                       web-service-5fd9ffd9b9-czl5g   6        Pod was resized in place by VPA Updater.
+2026-10-06T15:49:17Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"271m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":7}
+2026-10-06T15:49:17Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-s8m9h   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"271m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:49:17Z   InPlaceResizedByVPA   Pod                       web-service-5fd9ffd9b9-s8m9h   2        Pod was resized in place by VPA Updater.
+2026-10-06T15:49:17Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-s8m9h   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"271m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":3}
+2026-10-06T15:49:17Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-czl5g   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"271m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":7}
+2026-10-06T15:49:31Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"270m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":6}
+2026-10-06T15:49:31Z   InPlaceResizedByVPA   Pod                       web-service-5fd9ffd9b9-cpj5k   5        Pod was resized in place by VPA Updater.
+2026-10-06T15:49:31Z   ResizeStarted         Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize started: {"containers":[{"name":"web","resources":{"limits":{"cpu":"270m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":6}
+2026-10-06T15:49:31Z   InPlaceResizedByVPA   Pod                       web-service-5fd9ffd9b9-ch78l   5        Pod was resized in place by VPA Updater.
+2026-10-06T15:49:32Z   SuccessfulRescale     HorizontalPodAutoscaler   web-service                    1        New size: 5; reason: cpu resource utilization (percentage of request) above target
+2026-10-06T15:49:32Z   ScalingReplicaSet     Deployment                web-service                    1        Scaled up replica set web-service-5fd9ffd9b9 from 4 to 5
+2026-10-06T15:49:32Z   SuccessfulCreate      ReplicaSet                web-service-5fd9ffd9b9         1        Created pod: web-service-5fd9ffd9b9-cjkbq
+<nil>                  Scheduled             Pod                       web-service-5fd9ffd9b9-cjkbq   <none>   Successfully assigned hv-phase0/web-service-5fd9ffd9b9-cjkbq to k8s-worker2
+2026-10-06T15:49:32Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-ch78l   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"270m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":6}
+2026-10-06T15:49:32Z   ResizeCompleted       Pod                       web-service-5fd9ffd9b9-cpj5k   1        Pod resize completed: {"containers":[{"name":"web","resources":{"limits":{"cpu":"270m","memory":"256Mi"},"requests":{"cpu":"109m","memory":"128Mi"}}}],"generation":6}
+2026-10-06T15:49:32Z   Pulled                Pod                       web-service-5fd9ffd9b9-cjkbq   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:49:32Z   Created               Pod                       web-service-5fd9ffd9b9-cjkbq   1        Container created
+2026-10-06T15:49:33Z   Started               Pod                       web-service-5fd9ffd9b9-cjkbq   1        Container started
+2026-10-06T15:53:53Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-cpj5k
+2026-10-06T15:53:53Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-ch78l
+2026-10-06T15:53:53Z   Killing               Pod                       web-service-5fd9ffd9b9-cpj5k   1        Stopping container web
+2026-10-06T15:53:53Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-cjkbq
+2026-10-06T15:53:53Z   Killing               Pod                       web-service-5fd9ffd9b9-ch78l   1        Stopping container web
+2026-10-06T15:53:53Z   Killing               Pod                       web-service-5fd9ffd9b9-cjkbq   1        Stopping container web
+2026-10-06T15:53:54Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-vm4rg
+<nil>                  Scheduled             Pod                       web-service-d557654d6-vm4rg    <none>   Successfully assigned hv-phase0/web-service-d557654d6-vm4rg to k8s-worker1
+2026-10-06T15:53:54Z   Pulled                Pod                       web-service-d557654d6-vm4rg    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:53:54Z   Created               Pod                       web-service-d557654d6-vm4rg    1        Container created
+2026-10-06T15:53:54Z   Started               Pod                       web-service-d557654d6-vm4rg    1        Container started
+2026-10-06T15:54:01Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-s8m9h
+2026-10-06T15:54:01Z   Killing               Pod                       web-service-5fd9ffd9b9-s8m9h   1        Stopping container web
+2026-10-06T15:54:01Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-b4hwf
+<nil>                  Scheduled             Pod                       web-service-d557654d6-b4hwf    <none>   Successfully assigned hv-phase0/web-service-d557654d6-b4hwf to k8s-worker2
+2026-10-06T15:54:02Z   Pulled                Pod                       web-service-d557654d6-b4hwf    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:54:02Z   Created               Pod                       web-service-d557654d6-b4hwf    1        Container created
+2026-10-06T15:54:02Z   Started               Pod                       web-service-d557654d6-b4hwf    1        Container started
+2026-10-06T15:54:09Z   SuccessfulDelete      ReplicaSet                web-service-5fd9ffd9b9         1        Deleted pod: web-service-5fd9ffd9b9-czl5g
+2026-10-06T15:54:09Z   Killing               Pod                       web-service-5fd9ffd9b9-czl5g   1        Stopping container web
+2026-10-06T15:54:23Z   Unhealthy             Pod                       web-service-5fd9ffd9b9-cpj5k   1        Readiness probe failed: Get "http://10.42.2.145:8080/health": dial tcp 10.42.2.145:8080: connect: connection refused
+2026-10-06T15:55:01Z   Killing               Pod                       web-service-d557654d6-vm4rg    1        Stopping container web
+2026-10-06T15:55:01Z   EvictedByVPA          Pod                       web-service-d557654d6-vm4rg    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:55:01Z   EvictedPod            VerticalPodAutoscaler     web-service                    1        VPA Updater evicted Pod web-service-d557654d6-vm4rg to apply resource recommendation.
+2026-10-06T15:55:02Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-kb26c
+<nil>                  Scheduled             Pod                       web-service-d557654d6-kb26c    <none>   Successfully assigned hv-phase0/web-service-d557654d6-kb26c to k8s-worker1
+2026-10-06T15:55:02Z   Pulled                Pod                       web-service-d557654d6-kb26c    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:55:02Z   Created               Pod                       web-service-d557654d6-kb26c    1        Container created
+2026-10-06T15:55:02Z   Started               Pod                       web-service-d557654d6-kb26c    1        Container started
+2026-10-06T15:55:17Z   EvictedByVPA          Pod                       web-service-d557654d6-kb26c    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:55:17Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-kqs2l
+2026-10-06T15:55:17Z   EvictedPod            VerticalPodAutoscaler     web-service                    1        VPA Updater evicted Pod web-service-d557654d6-kb26c to apply resource recommendation.
+<nil>                  Scheduled             Pod                       web-service-d557654d6-kqs2l    <none>   Successfully assigned hv-phase0/web-service-d557654d6-kqs2l to k8s-worker1
+2026-10-06T15:55:17Z   Killing               Pod                       web-service-d557654d6-kb26c    1        Stopping container web
+2026-10-06T15:55:17Z   Pulled                Pod                       web-service-d557654d6-kqs2l    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:55:17Z   Created               Pod                       web-service-d557654d6-kqs2l    1        Container created
+2026-10-06T15:55:17Z   Started               Pod                       web-service-d557654d6-kqs2l    1        Container started
+2026-10-06T15:55:31Z   EvictedByVPA          Pod                       web-service-d557654d6-b4hwf    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:55:31Z   Killing               Pod                       web-service-d557654d6-b4hwf    1        Stopping container web
+<nil>                  Scheduled             Pod                       web-service-d557654d6-bqzh2    <none>   Successfully assigned hv-phase0/web-service-d557654d6-bqzh2 to k8s-worker2
+2026-10-06T15:55:31Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-bqzh2
+2026-10-06T15:55:31Z   EvictedPod            VerticalPodAutoscaler     web-service                    1        VPA Updater evicted Pod web-service-d557654d6-b4hwf to apply resource recommendation.
+2026-10-06T15:55:32Z   Pulled                Pod                       web-service-d557654d6-bqzh2    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:55:32Z   Created               Pod                       web-service-d557654d6-bqzh2    1        Container created
+2026-10-06T15:55:32Z   Started               Pod                       web-service-d557654d6-bqzh2    1        Container started
+2026-10-06T15:55:46Z   EvictedByVPA          Pod                       web-service-d557654d6-kqs2l    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:55:46Z   EvictedPod            VerticalPodAutoscaler     web-service                    1        VPA Updater evicted Pod web-service-d557654d6-kqs2l to apply resource recommendation.
+2026-10-06T15:55:46Z   Killing               Pod                       web-service-d557654d6-kqs2l    1        Stopping container web
+2026-10-06T15:55:46Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-fgh4f
+<nil>                  Scheduled             Pod                       web-service-d557654d6-fgh4f    <none>   Successfully assigned hv-phase0/web-service-d557654d6-fgh4f to k8s-worker1
+2026-10-06T15:55:47Z   Pulled                Pod                       web-service-d557654d6-fgh4f    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:55:47Z   Created               Pod                       web-service-d557654d6-fgh4f    1        Container created
+2026-10-06T15:55:47Z   Started               Pod                       web-service-d557654d6-fgh4f    1        Container started
+2026-10-06T15:56:46Z   EvictedByVPA          Pod                       web-service-d557654d6-bqzh2    1        Pod was evicted by VPA Updater to apply resource recommendation.
+2026-10-06T15:56:47Z   Killing               Pod                       web-service-d557654d6-bqzh2    1        Stopping container web
+2026-10-06T15:56:46Z   EvictedPod            VerticalPodAutoscaler     web-service                    1        VPA Updater evicted Pod web-service-d557654d6-bqzh2 to apply resource recommendation.
+2026-10-06T15:56:47Z   SuccessfulCreate      ReplicaSet                web-service-d557654d6          1        Created pod: web-service-d557654d6-tsz5r
+<nil>                  Scheduled             Pod                       web-service-d557654d6-tsz5r    <none>   Successfully assigned hv-phase0/web-service-d557654d6-tsz5r to k8s-worker2
+2026-10-06T15:56:47Z   Pulled                Pod                       web-service-d557654d6-tsz5r    1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-06T15:56:47Z   Created               Pod                       web-service-d557654d6-tsz5r    1        Container created
+2026-10-06T15:56:47Z   Started               Pod                       web-service-d557654d6-tsz5r    1        Container started

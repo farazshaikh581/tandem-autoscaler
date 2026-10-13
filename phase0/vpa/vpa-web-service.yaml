@@ -1,0 +1,24 @@
+# VerticalPodAutoscaler for the Phase 0 real-VPA runs. CPU only, with the same
+# 100m-800m bounds as vpa_emulator.py; updateMode is substituted by
+# run_vpa_real.sh (InPlaceOrRecreate or Recreate). Everything else is upstream
+# default (recommender: P90 + 15% margin, 24 h CPU half-life; updater: 1 min loop).
+apiVersion: autoscaling.k8s.io/v1
+kind: VerticalPodAutoscaler
+metadata:
+  name: web-service
+  namespace: hv-phase0
+spec:
+  targetRef:
+    apiVersion: apps/v1
+    kind: Deployment
+    name: web-service
+  updatePolicy:
+    updateMode: "__MODE__"
+  resourcePolicy:
+    containerPolicies:
+    - containerName: web
+      controlledResources: ["cpu"]
+      minAllowed:
+        cpu: 100m
+      maxAllowed:
+        cpu: 800m

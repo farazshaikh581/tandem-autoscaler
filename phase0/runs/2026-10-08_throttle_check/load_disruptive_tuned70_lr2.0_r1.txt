@@ -1,0 +1,2 @@
+[load] http://10.43.123.243:80/ @ 120 rps for 900s
+[load] done: n=108000 success=0.9999 mean=14.1ms p50=5.0 p90=7.3 p95=9.8 p99=133.4

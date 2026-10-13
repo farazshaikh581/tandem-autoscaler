@@ -1,0 +1,4 @@
+reason,count
+InPlaceResizedByVPA,0
+EvictedByVPA,10
+InPlaceResizeSkipped,0

@@ -1,0 +1,1121 @@
+controller,family,knob,knob_value,w_viol,seed,workload,sla_pct,mean_lat_ms,mean_cost_vcpu,churn,total_reversals,replica_reversals,cpu_reversals,mem_reversals
+qrdqn,distributional RL,w_cost,0.0375,0.5,0,cpu-bound,99.5,7.3,1.31,208,104,0,89,15
+qrdqn,distributional RL,w_cost,0.0375,0.5,0,memory-bound,98.2,5.5,0.48,55,6,0,6,0
+qrdqn,distributional RL,w_cost,0.0375,0.5,0,io-bound,99.3,7.7,3.34,48,7,0,7,0
+qrdqn,distributional RL,w_cost,0.0375,0.5,0,mixed,99.0,22.0,3.97,160,20,0,20,0
+qrdqn,distributional RL,w_cost,0.0375,0.5,1,cpu-bound,99.6,6.6,2.15,18,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,0.5,1,memory-bound,98.3,5.5,1.36,78,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,0.5,1,io-bound,99.3,7.7,7.27,132,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,0.5,1,mixed,98.5,22.0,8.53,220,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,0,cpu-bound,99.6,7.0,1.69,14,2,0,0,2
+qrdqn,distributional RL,w_cost,0.0375,1.0,0,memory-bound,96.1,5.6,1.13,87,13,13,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,0,io-bound,99.4,7.7,3.6,42,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,0,mixed,98.0,22.0,6.27,100,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,1,cpu-bound,99.5,7.1,1.89,26,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,1,memory-bound,98.3,5.5,0.86,51,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,1,io-bound,99.3,7.7,3.94,66,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,1.0,1,mixed,98.5,22.0,4.85,140,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,2.0,0,cpu-bound,99.5,6.9,1.97,138,52,0,0,52
+qrdqn,distributional RL,w_cost,0.0375,2.0,0,memory-bound,98.2,5.5,1.15,79,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,2.0,0,io-bound,99.2,7.7,3.71,185,87,0,0,87
+qrdqn,distributional RL,w_cost,0.0375,2.0,0,mixed,97.5,22.2,5.5,460,200,0,0,200
+qrdqn,distributional RL,w_cost,0.0375,2.0,1,cpu-bound,99.6,6.8,2.5,3316,9,0,0,9
+qrdqn,distributional RL,w_cost,0.0375,2.0,1,memory-bound,98.3,5.5,1.95,281,11,0,11,0
+qrdqn,distributional RL,w_cost,0.0375,2.0,1,io-bound,99.3,7.7,6.9,469,2,0,0,2
+qrdqn,distributional RL,w_cost,0.0375,2.0,1,mixed,99.0,22.0,6.99,240,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,4.0,0,cpu-bound,99.6,6.9,2.61,30,6,0,0,6
+qrdqn,distributional RL,w_cost,0.0375,4.0,0,memory-bound,95.4,5.6,4.25,78,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,4.0,0,io-bound,99.4,7.7,3.52,32,1,0,0,1
+qrdqn,distributional RL,w_cost,0.0375,4.0,0,mixed,99.0,22.0,4.82,60,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,4.0,1,cpu-bound,99.6,7.0,2.09,21,2,0,0,2
+qrdqn,distributional RL,w_cost,0.0375,4.0,1,memory-bound,98.1,5.6,1.3,95,0,0,0,0
+qrdqn,distributional RL,w_cost,0.0375,4.0,1,io-bound,99.3,7.7,4.4,112,18,0,0,18
+qrdqn,distributional RL,w_cost,0.0375,4.0,1,mixed,98.5,22.6,6.82,220,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,0.5,0,cpu-bound,99.5,6.9,1.63,89,35,0,0,35
+qrdqn,distributional RL,w_cost,0.075,0.5,0,memory-bound,98.2,5.5,0.86,2046,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,0.5,0,io-bound,99.3,7.7,3.23,94,10,0,0,10
+qrdqn,distributional RL,w_cost,0.075,0.5,0,mixed,99.0,22.0,4.15,60,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,0.5,1,cpu-bound,99.6,6.8,1.55,18,2,0,0,2
+qrdqn,distributional RL,w_cost,0.075,0.5,1,memory-bound,98.3,5.5,2.27,38,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,0.5,1,io-bound,99.3,7.7,4.62,43,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,0.5,1,mixed,99.0,22.0,4.72,80,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,1.0,0,cpu-bound,99.4,7.1,1.61,82,32,0,0,32
+qrdqn,distributional RL,w_cost,0.075,1.0,0,memory-bound,97.9,5.8,0.74,1749,20,16,0,4
+qrdqn,distributional RL,w_cost,0.075,1.0,0,io-bound,99.3,7.7,3.69,152,38,0,0,38
+qrdqn,distributional RL,w_cost,0.075,1.0,0,mixed,98.5,22.0,5.5,180,40,0,0,40
+qrdqn,distributional RL,w_cost,0.075,1.0,1,cpu-bound,99.6,6.9,1.7,148,2,0,0,2
+qrdqn,distributional RL,w_cost,0.075,1.0,1,memory-bound,98.3,5.5,1.39,61,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,1.0,1,io-bound,99.3,7.7,4.02,599,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,1.0,1,mixed,99.0,22.0,5.47,260,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,2.0,0,cpu-bound,99.6,6.9,1.6,10,2,0,2,0
+qrdqn,distributional RL,w_cost,0.075,2.0,0,memory-bound,98.2,5.5,1.3,1075,32,0,32,0
+qrdqn,distributional RL,w_cost,0.075,2.0,0,io-bound,99.4,7.7,3.57,26,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,2.0,0,mixed,99.0,22.0,5.51,80,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,2.0,1,cpu-bound,99.6,6.9,1.74,21,1,0,1,0
+qrdqn,distributional RL,w_cost,0.075,2.0,1,memory-bound,98.3,5.5,1.27,1148,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,2.0,1,io-bound,99.3,7.7,3.6,46,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,2.0,1,mixed,98.5,24.0,4.13,200,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,4.0,0,cpu-bound,99.5,7.1,2.53,29,5,0,0,5
+qrdqn,distributional RL,w_cost,0.075,4.0,0,memory-bound,98.1,5.5,2.45,71,1,1,0,0
+qrdqn,distributional RL,w_cost,0.075,4.0,0,io-bound,99.2,7.7,3.63,63,34,0,0,34
+qrdqn,distributional RL,w_cost,0.075,4.0,0,mixed,98.5,22.0,6.29,160,0,0,0,0
+qrdqn,distributional RL,w_cost,0.075,4.0,1,cpu-bound,99.6,6.9,3.68,134,7,0,1,6
+qrdqn,distributional RL,w_cost,0.075,4.0,1,memory-bound,97.6,5.6,3.46,1574,378,333,23,22
+qrdqn,distributional RL,w_cost,0.075,4.0,1,io-bound,98.1,7.8,7.18,141,36,0,3,33
+qrdqn,distributional RL,w_cost,0.075,4.0,1,mixed,98.0,22.6,8.14,320,40,0,0,40
+qrdqn,distributional RL,w_cost,0.15,0.5,0,cpu-bound,99.6,7.1,2.17,293,7,0,2,5
+qrdqn,distributional RL,w_cost,0.15,0.5,0,memory-bound,98.2,5.5,2.07,231,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,0.5,0,io-bound,99.4,7.7,4.28,58,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,0.5,0,mixed,99.0,22.0,8.44,1940,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,0.5,1,cpu-bound,99.6,6.9,1.57,44,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,0.5,1,memory-bound,98.3,5.5,2.19,77,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,0.5,1,io-bound,99.3,7.7,4.2,87,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,0.5,1,mixed,99.0,22.0,4.71,260,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,1.0,0,cpu-bound,98.8,10.0,1.39,256,107,67,10,30
+qrdqn,distributional RL,w_cost,0.15,1.0,0,memory-bound,98.2,5.5,0.6,120,6,6,0,0
+qrdqn,distributional RL,w_cost,0.15,1.0,0,io-bound,99.4,7.7,3.4,59,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,1.0,0,mixed,98.5,22.6,5.48,160,20,0,20,0
+qrdqn,distributional RL,w_cost,0.15,1.0,1,cpu-bound,99.6,6.9,1.5,9,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,1.0,1,memory-bound,98.3,5.5,0.63,511,106,52,54,0
+qrdqn,distributional RL,w_cost,0.15,1.0,1,io-bound,99.2,8.0,3.01,60,5,0,0,5
+qrdqn,distributional RL,w_cost,0.15,1.0,1,mixed,98.5,22.0,4.14,120,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,2.0,0,cpu-bound,99.5,7.2,1.53,134,29,7,0,22
+qrdqn,distributional RL,w_cost,0.15,2.0,0,memory-bound,98.1,5.5,1.52,123,10,10,0,0
+qrdqn,distributional RL,w_cost,0.15,2.0,0,io-bound,99.4,7.7,3.35,37,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,2.0,0,mixed,99.0,22.0,4.73,100,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,2.0,1,cpu-bound,99.6,6.9,1.75,69,2,0,0,2
+qrdqn,distributional RL,w_cost,0.15,2.0,1,memory-bound,98.3,5.5,0.86,122,19,19,0,0
+qrdqn,distributional RL,w_cost,0.15,2.0,1,io-bound,99.3,7.7,3.61,43,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,2.0,1,mixed,98.5,22.0,5.51,140,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,4.0,0,cpu-bound,99.6,7.0,1.58,6,0,0,0,0
+qrdqn,distributional RL,w_cost,0.15,4.0,0,memory-bound,98.0,5.5,5.79,217,12,12,0,0
+qrdqn,distributional RL,w_cost,0.15,4.0,0,io-bound,99.3,7.8,3.32,47,10,0,0,10
+qrdqn,distributional RL,w_cost,0.15,4.0,0,mixed,98.5,22.6,4.12,100,40,0,0,40
+qrdqn,distributional RL,w_cost,0.15,4.0,1,cpu-bound,99.6,6.8,3.73,36,6,0,0,6
+qrdqn,distributional RL,w_cost,0.15,4.0,1,memory-bound,98.2,5.5,0.99,2836,662,608,6,48
+qrdqn,distributional RL,w_cost,0.15,4.0,1,io-bound,99.3,7.7,6.63,366,54,4,1,49
+qrdqn,distributional RL,w_cost,0.15,4.0,1,mixed,98.5,22.0,6.99,200,120,40,0,80
+qrdqn,distributional RL,w_cost,0.3,0.5,0,cpu-bound,99.6,6.9,1.66,27,14,4,4,6
+qrdqn,distributional RL,w_cost,0.3,0.5,0,memory-bound,98.2,5.5,0.88,64,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,0.5,0,io-bound,99.2,7.9,2.84,78,7,0,0,7
+qrdqn,distributional RL,w_cost,0.3,0.5,0,mixed,99.0,22.0,4.72,140,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,0.5,1,cpu-bound,99.6,6.9,1.5,137,12,4,0,8
+qrdqn,distributional RL,w_cost,0.3,0.5,1,memory-bound,98.3,5.5,1.59,0,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,0.5,1,io-bound,99.3,7.7,3.95,1196,11,5,0,6
+qrdqn,distributional RL,w_cost,0.3,0.5,1,mixed,98.5,24.0,3.93,560,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,1.0,0,cpu-bound,99.6,6.9,1.46,13,2,0,0,2
+qrdqn,distributional RL,w_cost,0.3,1.0,0,memory-bound,98.0,5.5,0.66,107,3,3,0,0
+qrdqn,distributional RL,w_cost,0.3,1.0,0,io-bound,99.3,7.8,2.94,30,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,1.0,0,mixed,99.0,22.0,4.13,80,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,1.0,1,cpu-bound,99.6,6.9,1.54,88,4,0,0,4
+qrdqn,distributional RL,w_cost,0.3,1.0,1,memory-bound,98.2,5.5,0.76,617,20,20,0,0
+qrdqn,distributional RL,w_cost,0.3,1.0,1,io-bound,99.3,7.7,3.37,54,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,1.0,1,mixed,98.0,22.0,4.73,140,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,2.0,0,cpu-bound,99.4,7.0,1.54,123,44,14,6,24
+qrdqn,distributional RL,w_cost,0.3,2.0,0,memory-bound,98.2,5.5,0.54,232,7,7,0,0
+qrdqn,distributional RL,w_cost,0.3,2.0,0,io-bound,99.4,7.7,3.41,28,1,0,0,1
+qrdqn,distributional RL,w_cost,0.3,2.0,0,mixed,99.0,22.0,5.5,140,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,2.0,1,cpu-bound,99.6,6.9,1.61,319,212,40,39,133
+qrdqn,distributional RL,w_cost,0.3,2.0,1,memory-bound,97.8,5.6,0.69,157,35,20,15,0
+qrdqn,distributional RL,w_cost,0.3,2.0,1,io-bound,99.3,7.8,3.12,77,29,3,2,24
+qrdqn,distributional RL,w_cost,0.3,2.0,1,mixed,97.0,22.7,5.13,200,80,0,0,80
+qrdqn,distributional RL,w_cost,0.3,4.0,0,cpu-bound,99.6,6.9,1.95,50,14,6,2,6
+qrdqn,distributional RL,w_cost,0.3,4.0,0,memory-bound,98.2,5.5,2.41,808,483,30,453,0
+qrdqn,distributional RL,w_cost,0.3,4.0,0,io-bound,99.4,7.7,3.84,78,0,0,0,0
+qrdqn,distributional RL,w_cost,0.3,4.0,0,mixed,97.5,22.2,8.13,200,80,40,0,40
+qrdqn,distributional RL,w_cost,0.3,4.0,1,cpu-bound,99.4,7.2,1.7,316,220,57,69,94
+qrdqn,distributional RL,w_cost,0.3,4.0,1,memory-bound,98.3,5.5,1.1,1752,19,17,2,0
+qrdqn,distributional RL,w_cost,0.3,4.0,1,io-bound,99.3,7.7,3.66,113,37,0,0,37
+qrdqn,distributional RL,w_cost,0.3,4.0,1,mixed,98.5,22.0,5.48,300,80,0,0,80
+qrdqn,distributional RL,w_cost,0.6,0.5,0,cpu-bound,98.6,7.1,1.18,1873,969,56,4,909
+qrdqn,distributional RL,w_cost,0.6,0.5,0,memory-bound,98.2,5.5,0.62,224,6,6,0,0
+qrdqn,distributional RL,w_cost,0.6,0.5,0,io-bound,99.3,7.9,2.82,153,53,15,0,38
+qrdqn,distributional RL,w_cost,0.6,0.5,0,mixed,97.0,24.1,3.96,240,160,40,40,80
+qrdqn,distributional RL,w_cost,0.6,0.5,1,cpu-bound,99.5,7.3,1.45,129,97,22,28,47
+qrdqn,distributional RL,w_cost,0.6,0.5,1,memory-bound,98.2,5.6,0.46,75,24,2,0,22
+qrdqn,distributional RL,w_cost,0.6,0.5,1,io-bound,99.3,7.9,3.12,103,40,17,0,23
+qrdqn,distributional RL,w_cost,0.6,0.5,1,mixed,97.5,22.2,3.66,240,140,20,40,80
+qrdqn,distributional RL,w_cost,0.6,1.0,0,cpu-bound,98.3,7.9,1.57,305,195,14,67,114
+qrdqn,distributional RL,w_cost,0.6,1.0,0,memory-bound,98.2,5.5,0.59,154,7,6,1,0
+qrdqn,distributional RL,w_cost,0.6,1.0,0,io-bound,99.3,7.7,3.97,154,42,4,4,34
+qrdqn,distributional RL,w_cost,0.6,1.0,0,mixed,95.0,22.7,4.36,2420,2160,40,1840,280
+qrdqn,distributional RL,w_cost,0.6,1.0,1,cpu-bound,99.6,6.9,1.62,504,451,5,0,446
+qrdqn,distributional RL,w_cost,0.6,1.0,1,memory-bound,98.3,5.5,0.83,1823,2,2,0,0
+qrdqn,distributional RL,w_cost,0.6,1.0,1,io-bound,99.3,7.8,3.1,619,285,22,18,245
+qrdqn,distributional RL,w_cost,0.6,1.0,1,mixed,98.5,22.0,4.4,1100,820,20,0,800
+qrdqn,distributional RL,w_cost,0.6,2.0,0,cpu-bound,99.6,6.9,2.0,390,262,42,158,62
+qrdqn,distributional RL,w_cost,0.6,2.0,0,memory-bound,97.8,5.5,1.2,210,36,35,1,0
+qrdqn,distributional RL,w_cost,0.6,2.0,0,io-bound,99.4,7.7,3.48,28,0,0,0,0
+qrdqn,distributional RL,w_cost,0.6,2.0,0,mixed,97.5,22.2,5.09,220,80,0,40,40
+qrdqn,distributional RL,w_cost,0.6,2.0,1,cpu-bound,99.6,6.9,1.65,40,9,2,2,5
+qrdqn,distributional RL,w_cost,0.6,2.0,1,memory-bound,98.2,5.5,0.82,612,59,26,33,0
+qrdqn,distributional RL,w_cost,0.6,2.0,1,io-bound,99.3,7.7,3.6,44,1,0,0,1
+qrdqn,distributional RL,w_cost,0.6,2.0,1,mixed,97.0,24.3,5.48,240,80,0,0,80
+qrdqn,distributional RL,w_cost,0.6,4.0,0,cpu-bound,99.5,7.1,1.68,188,57,26,8,23
+qrdqn,distributional RL,w_cost,0.6,4.0,0,memory-bound,98.2,5.5,0.91,211,16,16,0,0
+qrdqn,distributional RL,w_cost,0.6,4.0,0,io-bound,99.0,7.7,3.75,95,29,4,0,25
+qrdqn,distributional RL,w_cost,0.6,4.0,0,mixed,98.0,24.0,4.7,200,120,40,0,80
+qrdqn,distributional RL,w_cost,0.6,4.0,1,cpu-bound,99.5,6.9,1.7,325,215,24,0,191
+qrdqn,distributional RL,w_cost,0.6,4.0,1,memory-bound,98.2,5.5,0.77,1343,75,20,5,50
+qrdqn,distributional RL,w_cost,0.6,4.0,1,io-bound,96.4,7.9,3.69,336,216,45,0,171
+qrdqn,distributional RL,w_cost,0.6,4.0,1,mixed,97.0,22.7,5.5,260,120,0,0,120
+qrdqn,distributional RL,w_cost,1.2,0.5,0,cpu-bound,97.7,12.1,0.9,398,247,68,90,89
+qrdqn,distributional RL,w_cost,1.2,0.5,0,memory-bound,98.0,5.5,0.42,178,63,42,21,0
+qrdqn,distributional RL,w_cost,1.2,0.5,0,io-bound,97.4,8.1,2.44,143,74,47,25,2
+qrdqn,distributional RL,w_cost,1.2,0.5,0,mixed,94.5,53.4,2.49,2200,1720,160,1360,200
+qrdqn,distributional RL,w_cost,1.2,0.5,1,cpu-bound,98.8,8.3,1.22,330,239,85,97,57
+qrdqn,distributional RL,w_cost,1.2,0.5,1,memory-bound,94.5,5.6,0.52,126,18,0,18,0
+qrdqn,distributional RL,w_cost,1.2,0.5,1,io-bound,98.4,8.1,2.74,117,35,7,8,20
+qrdqn,distributional RL,w_cost,1.2,0.5,1,mixed,97.0,22.4,3.55,340,180,60,80,40
+qrdqn,distributional RL,w_cost,1.2,1.0,0,cpu-bound,98.7,9.2,1.17,446,351,74,103,174
+qrdqn,distributional RL,w_cost,1.2,1.0,0,memory-bound,97.7,5.5,0.68,154,8,8,0,0
+qrdqn,distributional RL,w_cost,1.2,1.0,0,io-bound,98.4,7.9,2.72,125,70,29,0,41
+qrdqn,distributional RL,w_cost,1.2,1.0,0,mixed,95.0,53.1,2.81,1600,880,280,0,600
+qrdqn,distributional RL,w_cost,1.2,1.0,1,cpu-bound,99.5,7.0,1.43,203,92,34,23,35
+qrdqn,distributional RL,w_cost,1.2,1.0,1,memory-bound,98.2,5.5,0.79,1591,15,15,0,0
+qrdqn,distributional RL,w_cost,1.2,1.0,1,io-bound,99.3,7.7,3.25,265,55,8,0,47
+qrdqn,distributional RL,w_cost,1.2,1.0,1,mixed,96.0,23.0,3.27,820,300,40,140,120
+qrdqn,distributional RL,w_cost,1.2,2.0,0,cpu-bound,99.2,7.0,1.98,447,369,48,51,270
+qrdqn,distributional RL,w_cost,1.2,2.0,0,memory-bound,97.6,5.5,0.77,149,0,0,0,0
+qrdqn,distributional RL,w_cost,1.2,2.0,0,io-bound,99.3,7.8,3.32,96,44,20,0,24
+qrdqn,distributional RL,w_cost,1.2,2.0,0,mixed,97.0,24.1,4.14,960,520,80,200,240
+qrdqn,distributional RL,w_cost,1.2,2.0,1,cpu-bound,99.5,6.9,1.57,437,311,104,0,207
+qrdqn,distributional RL,w_cost,1.2,2.0,1,memory-bound,98.0,5.5,0.49,170,0,0,0,0
+qrdqn,distributional RL,w_cost,1.2,2.0,1,io-bound,99.3,7.7,3.64,94,8,1,0,7
+qrdqn,distributional RL,w_cost,1.2,2.0,1,mixed,96.5,22.6,4.01,640,440,160,80,200
+qrdqn,distributional RL,w_cost,1.2,4.0,0,cpu-bound,98.4,7.1,1.56,219,185,53,0,132
+qrdqn,distributional RL,w_cost,1.2,4.0,0,memory-bound,98.0,5.5,1.12,74,15,15,0,0
+qrdqn,distributional RL,w_cost,1.2,4.0,0,io-bound,99.4,7.7,3.47,34,11,1,1,9
+qrdqn,distributional RL,w_cost,1.2,4.0,0,mixed,95.5,22.6,4.73,360,160,0,0,160
+qrdqn,distributional RL,w_cost,1.2,4.0,1,cpu-bound,99.6,6.9,2.17,173,76,0,70,6
+qrdqn,distributional RL,w_cost,1.2,4.0,1,memory-bound,98.3,5.5,0.97,674,20,20,0,0
+qrdqn,distributional RL,w_cost,1.2,4.0,1,io-bound,99.2,7.7,4.11,433,157,102,31,24
+qrdqn,distributional RL,w_cost,1.2,4.0,1,mixed,97.0,22.4,8.51,1760,1560,200,1280,80
+qrdqn,distributional RL,w_cost,2.4,0.5,0,cpu-bound,96.9,13.7,1.0,1636,271,96,37,138
+qrdqn,distributional RL,w_cost,2.4,0.5,0,memory-bound,92.8,5.6,0.4,88,1,0,1,0
+qrdqn,distributional RL,w_cost,2.4,0.5,0,io-bound,96.8,8.0,2.7,166,51,27,2,22
+qrdqn,distributional RL,w_cost,2.4,0.5,0,mixed,92.0,33.2,2.4,2560,1760,240,1240,280
+qrdqn,distributional RL,w_cost,2.4,0.5,1,cpu-bound,97.4,14.2,0.94,394,213,63,37,113
+qrdqn,distributional RL,w_cost,2.4,0.5,1,memory-bound,98.2,5.5,0.32,95,0,0,0,0
+qrdqn,distributional RL,w_cost,2.4,0.5,1,io-bound,98.4,8.2,2.48,136,23,13,0,10
+qrdqn,distributional RL,w_cost,2.4,0.5,1,mixed,95.5,31.9,2.94,540,300,80,60,160
+qrdqn,distributional RL,w_cost,2.4,1.0,0,cpu-bound,98.8,9.4,1.01,277,228,51,65,112
+qrdqn,distributional RL,w_cost,2.4,1.0,0,memory-bound,97.8,5.5,0.47,382,106,0,106,0
+qrdqn,distributional RL,w_cost,2.4,1.0,0,io-bound,98.5,8.2,2.5,123,62,29,0,33
+qrdqn,distributional RL,w_cost,2.4,1.0,0,mixed,96.5,23.1,3.17,360,180,60,40,80
+qrdqn,distributional RL,w_cost,2.4,1.0,1,cpu-bound,99.1,8.5,1.5,317,275,77,115,83
+qrdqn,distributional RL,w_cost,2.4,1.0,1,memory-bound,98.3,5.5,0.51,112,0,0,0,0
+qrdqn,distributional RL,w_cost,2.4,1.0,1,io-bound,99.1,8.0,2.77,935,97,23,16,58
+qrdqn,distributional RL,w_cost,2.4,1.0,1,mixed,96.5,30.2,3.31,1160,600,160,280,160
+qrdqn,distributional RL,w_cost,2.4,2.0,0,cpu-bound,97.8,8.4,1.3,382,232,78,45,109
+qrdqn,distributional RL,w_cost,2.4,2.0,0,memory-bound,98.0,5.5,0.4,101,0,0,0,0
+qrdqn,distributional RL,w_cost,2.4,2.0,0,io-bound,95.3,8.0,2.74,967,369,152,0,217
+qrdqn,distributional RL,w_cost,2.4,2.0,0,mixed,91.0,38.9,2.41,2480,2000,440,680,880
+qrdqn,distributional RL,w_cost,2.4,2.0,1,cpu-bound,99.0,8.6,1.37,555,593,107,117,369
+qrdqn,distributional RL,w_cost,2.4,2.0,1,memory-bound,97.5,5.6,0.36,125,10,10,0,0
+qrdqn,distributional RL,w_cost,2.4,2.0,1,io-bound,99.3,7.8,3.02,2102,1149,560,89,500
+qrdqn,distributional RL,w_cost,2.4,2.0,1,mixed,96.0,46.3,3.7,1540,1440,200,280,960
+qrdqn,distributional RL,w_cost,2.4,4.0,0,cpu-bound,98.4,7.1,1.53,334,295,74,66,155
+qrdqn,distributional RL,w_cost,2.4,4.0,0,memory-bound,97.8,5.5,0.51,95,0,0,0,0
+qrdqn,distributional RL,w_cost,2.4,4.0,0,io-bound,99.2,7.8,3.11,1189,706,98,80,528
+qrdqn,distributional RL,w_cost,2.4,4.0,0,mixed,92.5,34.9,4.08,1140,880,40,120,720
+qrdqn,distributional RL,w_cost,2.4,4.0,1,cpu-bound,99.5,7.2,1.79,449,312,164,47,101
+qrdqn,distributional RL,w_cost,2.4,4.0,1,memory-bound,98.2,5.5,0.47,64,10,10,0,0
+qrdqn,distributional RL,w_cost,2.4,4.0,1,io-bound,99.3,7.8,3.38,2638,1719,327,67,1325
+qrdqn,distributional RL,w_cost,2.4,4.0,1,mixed,97.5,22.3,3.78,2040,1640,480,320,840
+qrdqn,distributional RL,w_cost,4.8,0.5,0,cpu-bound,95.2,23.9,0.86,453,549,167,204,178
+qrdqn,distributional RL,w_cost,4.8,0.5,0,memory-bound,98.0,5.6,0.36,104,0,0,0,0
+qrdqn,distributional RL,w_cost,4.8,0.5,0,io-bound,98.5,8.0,2.44,185,125,38,53,34
+qrdqn,distributional RL,w_cost,4.8,0.5,0,mixed,93.0,41.1,2.31,2140,1720,360,960,400
+qrdqn,distributional RL,w_cost,4.8,0.5,1,cpu-bound,96.9,14.5,1.12,292,281,72,109,100
+qrdqn,distributional RL,w_cost,4.8,0.5,1,memory-bound,92.2,5.7,0.39,93,0,0,0,0
+qrdqn,distributional RL,w_cost,4.8,0.5,1,io-bound,99.1,8.1,2.51,2228,467,35,342,90
+qrdqn,distributional RL,w_cost,4.8,0.5,1,mixed,95.5,30.2,2.77,3280,2240,440,1160,640
+qrdqn,distributional RL,w_cost,4.8,1.0,0,cpu-bound,97.5,14.2,0.97,325,242,70,91,81
+qrdqn,distributional RL,w_cost,4.8,1.0,0,memory-bound,98.2,5.5,0.63,2756,1575,1574,1,0
+qrdqn,distributional RL,w_cost,4.8,1.0,0,io-bound,99.0,8.2,2.47,238,116,44,40,32
+qrdqn,distributional RL,w_cost,4.8,1.0,0,mixed,95.5,34.0,2.45,2260,2280,440,1120,720
+qrdqn,distributional RL,w_cost,4.8,1.0,1,cpu-bound,96.4,14.6,1.01,383,328,100,103,125
+qrdqn,distributional RL,w_cost,4.8,1.0,1,memory-bound,97.3,5.7,0.32,81,14,14,0,0
+qrdqn,distributional RL,w_cost,4.8,1.0,1,io-bound,93.7,8.2,2.62,2930,653,175,30,448
+qrdqn,distributional RL,w_cost,4.8,1.0,1,mixed,85.5,41.7,2.8,3340,2240,120,320,1800
+qrdqn,distributional RL,w_cost,4.8,2.0,0,cpu-bound,97.0,13.3,1.01,359,383,84,159,140
+qrdqn,distributional RL,w_cost,4.8,2.0,0,memory-bound,93.1,5.6,0.31,65,0,0,0,0
+qrdqn,distributional RL,w_cost,4.8,2.0,0,io-bound,83.0,9.4,2.5,710,582,193,191,198
+qrdqn,distributional RL,w_cost,4.8,2.0,0,mixed,97.0,23.1,3.29,2240,3920,40,1960,1920
+qrdqn,distributional RL,w_cost,4.8,2.0,1,cpu-bound,97.6,9.9,1.31,551,479,145,112,222
+qrdqn,distributional RL,w_cost,4.8,2.0,1,memory-bound,97.1,5.6,0.33,73,16,4,4,8
+qrdqn,distributional RL,w_cost,4.8,2.0,1,io-bound,98.4,7.9,2.7,953,644,405,0,239
+qrdqn,distributional RL,w_cost,4.8,2.0,1,mixed,96.0,29.7,3.23,1860,1320,560,280,480
+qrdqn,distributional RL,w_cost,4.8,4.0,0,cpu-bound,98.4,7.4,1.37,502,432,189,4,239
+qrdqn,distributional RL,w_cost,4.8,4.0,0,memory-bound,93.0,5.7,0.38,84,6,6,0,0
+qrdqn,distributional RL,w_cost,4.8,4.0,0,io-bound,98.7,8.2,2.66,1507,937,459,18,460
+qrdqn,distributional RL,w_cost,4.8,4.0,0,mixed,95.0,24.6,4.04,1040,960,400,0,560
+qrdqn,distributional RL,w_cost,4.8,4.0,1,cpu-bound,98.3,7.7,1.83,448,441,39,220,182
+qrdqn,distributional RL,w_cost,4.8,4.0,1,memory-bound,98.2,5.5,0.48,420,9,9,0,0
+qrdqn,distributional RL,w_cost,4.8,4.0,1,io-bound,99.1,7.8,3.31,3142,2517,378,598,1541
+qrdqn,distributional RL,w_cost,4.8,4.0,1,mixed,89.5,22.7,4.32,2680,3040,520,1160,1360
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,0,cpu-bound,99.6,7.0,1.74,53,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,0,memory-bound,98.2,5.5,0.66,64,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,0,io-bound,99.4,7.7,3.6,31,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,0,mixed,99.0,22.0,4.81,100,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,1,cpu-bound,99.6,6.9,2.06,81,2,0,0,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,1,memory-bound,98.3,5.5,0.89,56,1,1,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,1,io-bound,99.3,7.8,3.67,75,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,0.5,1,mixed,98.5,22.0,4.74,100,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,0,cpu-bound,98.9,7.0,2.38,244,149,0,10,139
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,0,memory-bound,98.2,5.5,1.9,58,2,0,0,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,0,io-bound,99.0,7.7,3.71,131,87,1,5,81
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,0,mixed,97.5,22.2,5.51,220,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,1,cpu-bound,99.6,6.9,1.69,14,3,0,0,3
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,1,memory-bound,98.2,5.5,0.91,61,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,1,io-bound,99.3,7.7,3.63,50,10,0,0,10
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,1.0,1,mixed,99.0,22.0,3.93,100,20,20,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,0,cpu-bound,99.6,6.6,5.7,206,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,0,memory-bound,98.2,5.5,4.35,102,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,0,io-bound,99.4,7.7,5.61,82,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,0,mixed,99.0,22.0,6.9,200,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,1,cpu-bound,99.6,6.9,1.73,27,5,0,0,5
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,1,memory-bound,98.3,5.5,1.64,218,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,1,io-bound,99.2,7.7,3.7,67,6,0,0,6
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,2.0,1,mixed,98.0,22.1,5.5,140,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,0,cpu-bound,99.1,8.7,3.0,82,16,0,14,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,0,memory-bound,98.2,5.5,2.29,51,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,0,io-bound,99.4,7.7,3.63,25,1,0,0,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,0,mixed,99.0,22.0,5.51,100,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,1,cpu-bound,99.6,6.9,2.13,72,8,0,0,8
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,1,memory-bound,98.3,5.5,2.29,459,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,1,io-bound,99.3,7.7,3.53,54,16,0,0,16
+cvar-bellman-qrdqn,distributional RL,w_cost,0.0375,4.0,1,mixed,98.0,22.0,4.15,80,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,0,cpu-bound,99.6,6.9,1.65,18,1,0,0,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,0,memory-bound,98.2,5.5,2.46,59,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,0,io-bound,99.3,7.7,3.6,38,5,0,0,5
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,0,mixed,99.0,22.0,4.84,60,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,1,cpu-bound,99.6,6.9,1.87,22,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,1,memory-bound,98.3,5.5,0.88,52,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,1,io-bound,99.3,7.7,3.67,88,31,0,0,31
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,0.5,1,mixed,98.5,22.0,6.3,80,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,0,cpu-bound,99.6,6.9,1.89,105,33,24,0,9
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,0,memory-bound,98.2,5.5,1.74,107,9,9,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,0,io-bound,99.4,7.7,4.12,43,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,0,mixed,99.0,22.0,6.29,100,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,1,cpu-bound,99.6,6.9,1.65,17,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,1,memory-bound,98.3,5.5,1.17,1306,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,1,io-bound,99.3,7.7,4.35,142,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,1.0,1,mixed,98.5,22.0,4.72,100,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,0,cpu-bound,99.6,6.9,1.58,6,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,0,memory-bound,96.6,5.6,0.9,92,17,17,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,0,io-bound,99.4,7.7,3.63,23,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,0,mixed,99.0,22.0,4.16,60,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,1,cpu-bound,99.6,6.9,1.69,39,13,0,0,13
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,1,memory-bound,98.3,5.5,1.34,136,9,0,9,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,1,io-bound,99.3,7.7,3.57,96,28,0,0,28
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,2.0,1,mixed,99.0,22.0,4.72,80,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,0,cpu-bound,93.2,32.4,2.68,263,65,61,0,4
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,0,memory-bound,98.2,5.5,2.36,948,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,0,io-bound,99.4,7.7,3.57,528,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,0,mixed,98.5,22.6,4.13,620,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,1,cpu-bound,99.6,6.9,1.66,42,8,0,0,8
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,1,memory-bound,92.6,5.7,2.34,93,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,1,io-bound,99.1,7.7,3.52,104,30,0,0,30
+cvar-bellman-qrdqn,distributional RL,w_cost,0.075,4.0,1,mixed,98.5,22.6,5.3,120,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,0,cpu-bound,99.6,7.0,1.49,58,11,4,5,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,0,memory-bound,98.2,5.5,0.75,76,10,10,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,0,io-bound,99.4,7.7,3.6,29,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,0,mixed,99.0,22.0,4.14,100,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,1,cpu-bound,99.5,7.1,1.65,17,4,2,1,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,1,memory-bound,98.2,5.5,0.89,142,63,20,43,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,1,io-bound,99.1,7.8,3.56,92,18,0,0,18
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,0.5,1,mixed,98.0,22.1,4.16,120,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,0,cpu-bound,99.6,7.0,1.66,22,2,0,2,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,0,memory-bound,96.2,5.6,2.18,50,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,0,io-bound,99.3,7.7,3.47,33,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,0,mixed,98.5,22.0,4.84,80,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,1,cpu-bound,99.6,7.0,1.61,14,1,0,0,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,1,memory-bound,94.2,5.6,0.88,46,4,4,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,1,io-bound,99.3,7.7,3.6,43,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,1.0,1,mixed,97.5,22.2,5.5,160,60,0,20,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,0,cpu-bound,99.6,6.9,1.65,18,5,0,0,5
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,0,memory-bound,98.1,5.5,1.75,153,36,7,29,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,0,io-bound,99.4,7.7,3.67,38,16,0,0,16
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,0,mixed,98.5,22.0,4.84,80,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,1,cpu-bound,99.5,7.1,1.69,49,11,0,0,11
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,1,memory-bound,98.3,5.5,0.61,2115,26,0,0,26
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,1,io-bound,99.0,9.3,3.79,63,1,0,0,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,2.0,1,mixed,98.5,22.1,5.48,120,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,0,cpu-bound,99.2,8.3,2.94,162,3,1,2,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,0,memory-bound,98.2,5.5,1.51,179,68,20,48,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,0,io-bound,99.4,7.7,3.96,131,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,0,mixed,99.0,22.0,3.94,320,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,1,cpu-bound,99.6,7.0,1.61,23,8,0,0,8
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,1,memory-bound,98.2,5.5,1.56,22,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,1,io-bound,99.1,7.7,3.62,67,10,0,0,10
+cvar-bellman-qrdqn,distributional RL,w_cost,0.15,4.0,1,mixed,97.0,22.2,4.74,140,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,0,cpu-bound,99.5,7.0,1.23,2310,140,57,67,16
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,0,memory-bound,98.2,5.5,0.54,103,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,0,io-bound,99.3,7.7,3.35,45,13,3,1,9
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,0,mixed,99.0,22.0,4.15,80,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,1,cpu-bound,99.4,7.0,1.89,217,143,55,54,34
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,1,memory-bound,98.3,5.5,0.6,147,20,20,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,1,io-bound,99.3,7.7,3.61,48,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,0.5,1,mixed,98.5,22.1,4.82,120,20,0,20,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,0,cpu-bound,99.5,7.0,1.7,169,100,39,23,38
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,0,memory-bound,98.2,5.5,0.61,283,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,0,io-bound,99.3,7.8,3.28,33,3,1,0,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,0,mixed,96.5,43.6,3.38,460,400,120,120,160
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,1,cpu-bound,99.5,6.9,1.64,127,93,30,42,21
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,1,memory-bound,98.2,5.6,0.88,76,5,1,0,4
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,1,io-bound,99.3,7.7,3.8,48,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,1.0,1,mixed,98.5,22.0,5.5,120,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,0,cpu-bound,99.4,7.0,1.55,78,30,11,2,17
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,0,memory-bound,97.8,5.5,0.78,90,18,18,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,0,io-bound,99.4,7.7,3.63,39,9,0,0,9
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,0,mixed,98.5,22.0,4.83,120,80,0,40,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,1,cpu-bound,99.6,6.9,1.61,78,4,0,0,4
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,1,memory-bound,98.3,5.5,0.64,1210,20,20,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,1,io-bound,99.3,7.7,4.5,278,39,1,0,38
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,2.0,1,mixed,99.0,22.0,4.52,340,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,0,cpu-bound,99.6,7.0,3.03,56,6,0,0,6
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,0,memory-bound,98.2,5.5,1.38,1049,41,29,0,12
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,0,io-bound,99.4,7.7,4.07,1053,19,0,0,19
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,0,mixed,99.0,22.0,4.73,300,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,1,cpu-bound,99.6,6.8,2.13,118,45,3,3,39
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,1,memory-bound,98.3,5.5,1.39,20,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,1,io-bound,99.3,7.7,3.6,45,4,0,0,4
+cvar-bellman-qrdqn,distributional RL,w_cost,0.3,4.0,1,mixed,99.0,22.0,6.04,120,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,0,cpu-bound,99.6,6.9,1.43,337,136,72,2,62
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,0,memory-bound,98.2,5.5,0.52,108,16,16,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,0,io-bound,99.4,7.7,3.58,24,1,1,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,0,mixed,99.0,22.0,4.48,160,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,1,cpu-bound,99.6,7.0,1.31,88,52,22,18,12
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,1,memory-bound,98.2,5.5,0.57,103,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,1,io-bound,99.3,7.7,3.09,59,5,5,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,0.5,1,mixed,98.0,22.6,4.72,220,60,20,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,0,cpu-bound,97.8,11.4,1.45,327,242,55,63,124
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,0,memory-bound,98.2,5.5,0.5,118,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,0,io-bound,99.4,7.7,3.62,39,2,0,0,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,0,mixed,97.0,27.3,3.62,740,560,80,240,240
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,1,cpu-bound,99.4,7.5,1.81,324,217,38,69,110
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,1,memory-bound,98.3,5.5,1.06,760,34,6,28,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,1,io-bound,99.3,7.7,4.23,52,35,11,22,2
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,1.0,1,mixed,99.0,22.0,4.72,240,80,0,0,80
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,0,cpu-bound,99.6,6.9,1.88,87,38,5,19,14
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,0,memory-bound,98.1,5.5,2.88,60,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,0,io-bound,99.4,7.7,3.54,170,119,20,79,20
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,0,mixed,98.5,22.6,5.49,100,80,40,40,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,1,cpu-bound,99.6,6.9,1.47,177,39,38,0,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,1,memory-bound,98.3,5.5,1.0,80,1,1,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,1,io-bound,99.3,7.7,3.94,167,13,6,0,7
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,2.0,1,mixed,99.0,22.0,4.0,280,40,40,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,0,cpu-bound,98.8,7.1,3.0,288,6,0,0,6
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,0,memory-bound,98.2,5.5,2.12,1522,47,0,47,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,0,io-bound,99.4,7.7,3.46,119,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,0,mixed,99.0,22.0,4.72,200,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,1,cpu-bound,99.5,7.1,2.5,86,27,24,2,1
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,1,memory-bound,98.3,5.5,0.9,250,30,20,4,6
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,1,io-bound,99.3,7.7,3.74,144,12,6,2,4
+cvar-bellman-qrdqn,distributional RL,w_cost,0.6,4.0,1,mixed,98.5,23.9,4.7,280,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,0,cpu-bound,99.6,6.9,1.75,376,427,28,207,192
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,0,memory-bound,98.2,5.5,1.47,44,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,0,io-bound,99.4,7.7,3.82,108,3,1,0,2
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,0,mixed,97.5,22.2,5.2,360,180,20,80,80
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,1,cpu-bound,99.6,6.9,1.28,31,12,4,2,6
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,1,memory-bound,98.3,5.5,0.46,153,9,0,9,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,1,io-bound,99.2,7.9,2.92,79,3,3,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,0.5,1,mixed,98.0,24.1,3.97,200,60,20,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,0,cpu-bound,99.6,6.9,1.62,433,337,36,18,283
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,0,memory-bound,98.2,5.5,0.78,56,1,0,1,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,0,io-bound,99.4,7.7,3.33,37,2,1,1,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,0,mixed,97.0,24.1,5.36,2120,1960,120,0,1840
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,1,cpu-bound,98.1,7.2,2.11,217,69,0,0,69
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,1,memory-bound,97.7,5.5,1.26,1305,805,1,0,804
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,1,io-bound,99.3,7.7,4.13,248,9,0,0,9
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,1.0,1,mixed,98.5,22.0,4.71,260,40,0,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,0,cpu-bound,99.2,7.9,1.64,459,340,127,0,213
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,0,memory-bound,98.2,5.5,0.81,113,20,19,1,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,0,io-bound,98.5,7.8,3.45,824,67,23,0,44
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,0,mixed,98.5,22.0,4.16,600,200,80,0,120
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,1,cpu-bound,99.5,7.1,1.95,444,574,60,210,304
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,1,memory-bound,98.2,5.5,1.35,837,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,1,io-bound,99.3,7.8,3.12,103,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,2.0,1,mixed,99.0,22.0,5.66,2180,2320,100,1540,680
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,0,cpu-bound,99.5,7.3,2.97,308,129,17,2,110
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,0,memory-bound,98.2,5.5,2.52,103,19,19,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,0,io-bound,99.2,7.7,4.34,1237,59,16,4,39
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,0,mixed,97.0,22.5,4.9,660,240,80,0,160
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,1,cpu-bound,99.6,6.9,2.18,172,18,16,0,2
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,1,memory-bound,98.1,5.6,1.13,783,21,20,1,0
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,1,io-bound,99.3,7.7,3.88,1384,1056,5,1025,26
+cvar-bellman-qrdqn,distributional RL,w_cost,1.2,4.0,1,mixed,95.5,39.8,3.22,1920,1680,440,760,480
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,0,cpu-bound,98.2,12.0,1.16,307,186,59,9,118
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,0,memory-bound,97.6,5.5,0.59,64,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,0,io-bound,99.3,7.9,2.67,198,78,28,0,50
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,0,mixed,97.5,24.4,2.5,1500,1360,440,0,920
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,1,cpu-bound,99.3,6.8,1.57,318,163,67,6,90
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,1,memory-bound,98.3,5.5,0.33,33,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,1,io-bound,99.1,7.8,3.69,1153,675,131,392,152
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,0.5,1,mixed,91.0,24.5,4.48,680,200,80,0,120
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,0,cpu-bound,98.9,7.0,1.47,237,114,48,11,55
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,0,memory-bound,95.7,5.6,0.49,113,20,20,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,0,io-bound,99.2,7.7,3.43,120,46,29,0,17
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,0,mixed,94.5,24.5,4.21,620,200,80,80,40
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,1,cpu-bound,98.8,9.9,1.44,517,482,133,57,292
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,1,memory-bound,98.3,5.5,0.67,241,33,1,32,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,1,io-bound,99.3,7.8,3.44,513,151,83,0,68
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,1.0,1,mixed,97.5,28.0,3.09,1200,960,520,0,440
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,0,cpu-bound,99.0,7.0,1.65,387,183,51,50,82
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,0,memory-bound,98.1,5.5,0.83,89,13,9,4,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,0,io-bound,99.4,7.7,3.34,344,52,18,13,21
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,0,mixed,97.0,22.5,4.86,380,160,80,40,40
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,1,cpu-bound,99.6,6.9,1.92,435,431,40,93,298
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,1,memory-bound,98.3,5.5,0.71,170,1,1,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,1,io-bound,99.3,7.7,4.41,72,44,20,0,24
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,2.0,1,mixed,96.5,24.4,5.52,440,120,40,0,80
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,0,cpu-bound,99.4,7.0,1.98,294,182,60,30,92
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,0,memory-bound,91.1,5.7,0.69,66,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,0,io-bound,97.5,7.8,4.04,515,82,29,2,51
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,0,mixed,96.5,29.0,3.49,480,360,80,160,120
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,1,cpu-bound,99.6,6.9,2.06,596,415,78,2,335
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,1,memory-bound,98.3,5.5,0.83,52,16,16,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,1,io-bound,99.3,7.7,4.72,1797,1627,0,0,1627
+cvar-bellman-qrdqn,distributional RL,w_cost,2.4,4.0,1,mixed,97.0,22.5,7.03,2620,2520,720,0,1800
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,0,cpu-bound,98.2,10.6,1.07,309,318,99,99,120
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,0,memory-bound,87.4,5.8,0.38,56,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,0,io-bound,99.0,7.7,2.98,133,40,20,0,20
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,0,mixed,94.5,25.2,3.71,580,240,80,40,120
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,1,cpu-bound,97.1,12.3,1.26,482,367,135,81,151
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,1,memory-bound,98.2,5.5,0.31,21,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,1,io-bound,98.6,7.9,2.89,101,44,13,0,31
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,0.5,1,mixed,89.5,51.0,2.89,1900,1900,640,660,600
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,0,cpu-bound,99.4,6.9,1.69,385,358,88,172,98
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,0,memory-bound,98.2,5.5,0.31,158,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,0,io-bound,98.2,7.7,3.36,206,123,37,9,77
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,0,mixed,94.5,24.7,3.68,520,240,80,0,160
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,1,cpu-bound,97.9,9.1,1.47,483,303,77,115,111
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,1,memory-bound,98.2,5.5,0.32,32,4,4,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,1,io-bound,98.2,7.8,3.26,110,48,21,6,21
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,1.0,1,mixed,94.0,23.1,4.02,2400,560,80,360,120
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,0,cpu-bound,99.3,7.0,2.06,537,651,68,245,338
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,0,memory-bound,96.8,5.7,0.76,134,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,0,io-bound,98.8,7.7,3.26,773,180,63,32,85
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,0,mixed,94.5,22.6,4.8,800,400,120,40,240
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,1,cpu-bound,99.2,7.4,1.86,497,506,62,63,381
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,1,memory-bound,98.2,5.5,0.47,122,54,14,0,40
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,1,io-bound,94.6,8.0,4.39,1106,1006,118,783,105
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,2.0,1,mixed,95.0,22.8,4.71,2520,2080,560,1080,440
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,0,cpu-bound,98.7,7.2,1.78,418,376,82,59,235
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,0,memory-bound,96.7,5.6,0.76,114,0,0,0,0
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,0,io-bound,98.9,7.7,4.85,506,56,9,8,39
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,0,mixed,97.0,22.2,6.65,820,380,100,40,240
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,1,cpu-bound,99.5,7.1,2.16,261,175,28,1,146
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,1,memory-bound,97.8,5.6,0.49,884,70,20,2,48
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,1,io-bound,98.8,7.8,4.73,255,190,47,44,99
+cvar-bellman-qrdqn,distributional RL,w_cost,4.8,4.0,1,mixed,96.5,22.4,7.0,200,160,40,0,120
+cvar-qrdqn,distributional RL,w_cost,0.0375,0.5,0,cpu-bound,99.6,6.8,1.59,94,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,0.5,0,memory-bound,98.2,5.5,1.12,60,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,0.5,0,io-bound,99.4,7.7,3.71,55,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,0.5,0,mixed,99.0,22.0,4.86,160,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,1.0,0,cpu-bound,99.6,6.9,1.72,38,14,0,0,14
+cvar-qrdqn,distributional RL,w_cost,0.0375,1.0,0,memory-bound,98.2,5.8,1.63,84,4,4,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,1.0,0,io-bound,99.4,7.7,3.44,28,1,0,0,1
+cvar-qrdqn,distributional RL,w_cost,0.0375,1.0,0,mixed,99.0,22.0,4.73,80,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,2.0,0,cpu-bound,99.6,6.8,2.08,154,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,2.0,0,memory-bound,98.2,5.5,2.32,666,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,2.0,0,io-bound,99.4,7.7,3.97,54,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,2.0,0,mixed,99.0,22.0,5.51,100,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,4.0,0,cpu-bound,99.6,6.6,7.93,48,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,4.0,0,memory-bound,98.2,5.5,5.79,33,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,4.0,0,io-bound,99.4,7.7,5.13,36,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.0375,4.0,0,mixed,99.0,22.0,6.3,40,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,0.5,0,cpu-bound,99.6,6.9,1.58,9,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,0.5,0,memory-bound,98.2,5.5,0.98,66,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,0.5,0,io-bound,99.4,7.7,3.6,22,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,0.5,0,mixed,99.0,22.0,5.47,80,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,1.0,0,cpu-bound,99.6,6.7,2.39,234,56,0,0,56
+cvar-qrdqn,distributional RL,w_cost,0.075,1.0,0,memory-bound,98.1,5.5,1.35,61,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,1.0,0,io-bound,99.4,7.7,3.65,25,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,1.0,0,mixed,98.5,22.0,4.73,180,40,0,0,40
+cvar-qrdqn,distributional RL,w_cost,0.075,2.0,0,cpu-bound,99.5,7.1,9.19,348,98,0,0,98
+cvar-qrdqn,distributional RL,w_cost,0.075,2.0,0,memory-bound,98.2,5.5,1.1,2345,34,34,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,2.0,0,io-bound,99.4,7.7,3.77,66,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,2.0,0,mixed,99.0,22.0,8.56,300,80,0,0,80
+cvar-qrdqn,distributional RL,w_cost,0.075,4.0,0,cpu-bound,99.6,6.6,7.53,131,7,0,0,7
+cvar-qrdqn,distributional RL,w_cost,0.075,4.0,0,memory-bound,97.0,5.6,5.45,43,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.075,4.0,0,io-bound,99.4,7.9,6.29,91,13,0,0,13
+cvar-qrdqn,distributional RL,w_cost,0.075,4.0,0,mixed,99.0,22.0,7.84,40,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.15,0.5,0,cpu-bound,99.2,7.1,1.44,341,294,25,107,162
+cvar-qrdqn,distributional RL,w_cost,0.15,0.5,0,memory-bound,98.0,5.5,1.0,152,22,8,0,14
+cvar-qrdqn,distributional RL,w_cost,0.15,0.5,0,io-bound,99.4,7.7,3.63,40,13,0,0,13
+cvar-qrdqn,distributional RL,w_cost,0.15,0.5,0,mixed,98.5,22.1,5.35,180,40,0,0,40
+cvar-qrdqn,distributional RL,w_cost,0.15,1.0,0,cpu-bound,99.6,6.7,1.99,154,125,2,80,43
+cvar-qrdqn,distributional RL,w_cost,0.15,1.0,0,memory-bound,98.2,5.5,0.85,506,2,2,0,0
+cvar-qrdqn,distributional RL,w_cost,0.15,1.0,0,io-bound,99.4,7.7,3.68,29,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.15,1.0,0,mixed,99.0,22.0,5.5,180,60,0,20,40
+cvar-qrdqn,distributional RL,w_cost,0.15,2.0,0,cpu-bound,99.6,6.9,2.18,84,8,0,0,8
+cvar-qrdqn,distributional RL,w_cost,0.15,2.0,0,memory-bound,98.2,5.5,1.68,328,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.15,2.0,0,io-bound,99.4,7.7,5.94,1283,849,15,0,834
+cvar-qrdqn,distributional RL,w_cost,0.15,2.0,0,mixed,99.0,22.0,8.32,1200,880,40,0,840
+cvar-qrdqn,distributional RL,w_cost,0.15,4.0,0,cpu-bound,99.6,6.6,5.65,3494,2289,26,0,2263
+cvar-qrdqn,distributional RL,w_cost,0.15,4.0,0,memory-bound,98.2,5.5,3.92,265,104,39,23,42
+cvar-qrdqn,distributional RL,w_cost,0.15,4.0,0,io-bound,99.4,7.7,6.32,269,116,45,0,71
+cvar-qrdqn,distributional RL,w_cost,0.15,4.0,0,mixed,98.5,22.1,9.11,1300,800,0,0,800
+cvar-qrdqn,distributional RL,w_cost,0.3,0.5,0,cpu-bound,99.6,7.0,1.99,406,156,118,0,38
+cvar-qrdqn,distributional RL,w_cost,0.3,0.5,0,memory-bound,98.2,5.5,0.86,350,1,1,0,0
+cvar-qrdqn,distributional RL,w_cost,0.3,0.5,0,io-bound,99.4,7.7,3.76,99,21,15,0,6
+cvar-qrdqn,distributional RL,w_cost,0.3,0.5,0,mixed,98.5,22.0,4.9,320,120,80,0,40
+cvar-qrdqn,distributional RL,w_cost,0.3,1.0,0,cpu-bound,99.6,6.7,2.11,336,224,0,0,224
+cvar-qrdqn,distributional RL,w_cost,0.3,1.0,0,memory-bound,98.2,5.5,1.24,881,595,177,418,0
+cvar-qrdqn,distributional RL,w_cost,0.3,1.0,0,io-bound,99.4,7.7,3.83,36,2,1,1,0
+cvar-qrdqn,distributional RL,w_cost,0.3,1.0,0,mixed,97.5,22.4,8.24,1740,1560,40,40,1480
+cvar-qrdqn,distributional RL,w_cost,0.3,2.0,0,cpu-bound,99.6,6.9,1.91,133,43,4,30,9
+cvar-qrdqn,distributional RL,w_cost,0.3,2.0,0,memory-bound,97.2,5.6,3.15,3315,3132,735,373,2024
+cvar-qrdqn,distributional RL,w_cost,0.3,2.0,0,io-bound,99.4,7.7,3.87,35,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.3,2.0,0,mixed,98.5,22.1,6.14,180,40,0,0,40
+cvar-qrdqn,distributional RL,w_cost,0.3,4.0,0,cpu-bound,99.6,6.6,7.49,291,45,0,0,45
+cvar-qrdqn,distributional RL,w_cost,0.3,4.0,0,memory-bound,96.2,5.6,2.51,158,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.3,4.0,0,io-bound,99.4,7.7,6.39,100,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,0.3,4.0,0,mixed,98.5,22.1,9.05,560,80,0,0,80
+cvar-qrdqn,distributional RL,w_cost,0.6,0.5,0,cpu-bound,99.2,7.3,1.63,269,192,54,49,89
+cvar-qrdqn,distributional RL,w_cost,0.6,0.5,0,memory-bound,97.8,5.5,0.81,86,14,2,10,2
+cvar-qrdqn,distributional RL,w_cost,0.6,0.5,0,io-bound,99.4,7.7,4.36,273,71,34,0,37
+cvar-qrdqn,distributional RL,w_cost,0.6,0.5,0,mixed,96.5,22.7,4.78,2240,1160,160,80,920
+cvar-qrdqn,distributional RL,w_cost,0.6,1.0,0,cpu-bound,99.4,7.0,1.89,481,465,86,6,373
+cvar-qrdqn,distributional RL,w_cost,0.6,1.0,0,memory-bound,96.6,5.6,0.74,50,6,0,6,0
+cvar-qrdqn,distributional RL,w_cost,0.6,1.0,0,io-bound,99.3,7.7,4.29,774,357,69,22,266
+cvar-qrdqn,distributional RL,w_cost,0.6,1.0,0,mixed,96.5,22.5,5.38,1460,1180,300,120,760
+cvar-qrdqn,distributional RL,w_cost,0.6,2.0,0,cpu-bound,99.6,6.8,2.95,383,38,14,0,24
+cvar-qrdqn,distributional RL,w_cost,0.6,2.0,0,memory-bound,97.9,5.5,7.29,2253,1357,385,112,860
+cvar-qrdqn,distributional RL,w_cost,0.6,2.0,0,io-bound,91.6,8.2,5.52,1195,874,129,57,688
+cvar-qrdqn,distributional RL,w_cost,0.6,2.0,0,mixed,95.0,22.6,6.47,320,120,40,0,80
+cvar-qrdqn,distributional RL,w_cost,0.6,4.0,0,cpu-bound,99.6,6.6,6.82,3612,3597,98,104,3395
+cvar-qrdqn,distributional RL,w_cost,0.6,4.0,0,memory-bound,96.7,5.6,3.64,1271,1053,475,0,578
+cvar-qrdqn,distributional RL,w_cost,0.6,4.0,0,io-bound,99.4,7.7,6.03,905,971,403,46,522
+cvar-qrdqn,distributional RL,w_cost,0.6,4.0,0,mixed,99.0,22.0,6.94,1620,1920,600,60,1260
+cvar-qrdqn,distributional RL,w_cost,1.2,0.5,0,cpu-bound,99.4,7.8,1.75,319,362,66,149,147
+cvar-qrdqn,distributional RL,w_cost,1.2,0.5,0,memory-bound,97.5,5.6,0.53,170,24,6,18,0
+cvar-qrdqn,distributional RL,w_cost,1.2,0.5,0,io-bound,99.4,7.7,4.45,1883,1052,441,149,462
+cvar-qrdqn,distributional RL,w_cost,1.2,0.5,0,mixed,97.0,22.5,4.3,3360,1140,460,120,560
+cvar-qrdqn,distributional RL,w_cost,1.2,1.0,0,cpu-bound,98.4,7.1,1.95,403,310,6,185,119
+cvar-qrdqn,distributional RL,w_cost,1.2,1.0,0,memory-bound,98.0,5.5,0.8,1146,69,1,36,32
+cvar-qrdqn,distributional RL,w_cost,1.2,1.0,0,io-bound,86.8,8.8,7.16,1831,1730,269,845,616
+cvar-qrdqn,distributional RL,w_cost,1.2,1.0,0,mixed,90.5,23.3,6.98,2400,2160,120,1400,640
+cvar-qrdqn,distributional RL,w_cost,1.2,2.0,0,cpu-bound,98.0,7.3,3.08,254,226,2,78,146
+cvar-qrdqn,distributional RL,w_cost,1.2,2.0,0,memory-bound,93.9,5.7,4.13,2829,2652,710,268,1674
+cvar-qrdqn,distributional RL,w_cost,1.2,2.0,0,io-bound,98.6,7.8,6.35,2796,3249,807,771,1671
+cvar-qrdqn,distributional RL,w_cost,1.2,2.0,0,mixed,96.0,22.7,8.86,2260,2080,240,280,1560
+cvar-qrdqn,distributional RL,w_cost,1.2,4.0,0,cpu-bound,98.6,6.7,9.12,3540,3388,116,8,3264
+cvar-qrdqn,distributional RL,w_cost,1.2,4.0,0,memory-bound,60.6,7.2,9.34,2974,1855,30,0,1825
+cvar-qrdqn,distributional RL,w_cost,1.2,4.0,0,io-bound,49.8,13.4,7.05,1779,1099,174,88,837
+cvar-qrdqn,distributional RL,w_cost,1.2,4.0,0,mixed,95.5,23.6,8.08,3060,2780,580,80,2120
+cvar-qrdqn,distributional RL,w_cost,2.4,0.5,0,cpu-bound,99.1,7.5,1.52,598,547,58,83,406
+cvar-qrdqn,distributional RL,w_cost,2.4,0.5,0,memory-bound,98.1,5.5,0.8,316,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,2.4,0.5,0,io-bound,99.4,7.7,4.06,1680,1009,78,91,840
+cvar-qrdqn,distributional RL,w_cost,2.4,0.5,0,mixed,97.5,22.1,4.41,3400,3440,160,1120,2160
+cvar-qrdqn,distributional RL,w_cost,2.4,1.0,0,cpu-bound,99.0,8.9,1.67,503,690,84,286,320
+cvar-qrdqn,distributional RL,w_cost,2.4,1.0,0,memory-bound,98.1,5.5,0.76,643,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,2.4,1.0,0,io-bound,99.3,7.8,4.28,2112,1253,207,214,832
+cvar-qrdqn,distributional RL,w_cost,2.4,1.0,0,mixed,98.5,22.0,5.12,3240,4980,260,2200,2520
+cvar-qrdqn,distributional RL,w_cost,2.4,2.0,0,cpu-bound,99.2,8.5,1.6,536,633,80,170,383
+cvar-qrdqn,distributional RL,w_cost,2.4,2.0,0,memory-bound,98.2,5.5,0.8,100,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,2.4,2.0,0,io-bound,80.3,9.3,4.19,2906,2264,694,45,1525
+cvar-qrdqn,distributional RL,w_cost,2.4,2.0,0,mixed,96.5,22.2,4.67,2880,3480,720,1120,1640
+cvar-qrdqn,distributional RL,w_cost,2.4,4.0,0,cpu-bound,99.6,6.6,7.46,2254,1184,1065,0,119
+cvar-qrdqn,distributional RL,w_cost,2.4,4.0,0,memory-bound,76.0,6.3,5.02,2989,3419,660,720,2039
+cvar-qrdqn,distributional RL,w_cost,2.4,4.0,0,io-bound,67.8,11.5,5.7,2714,1576,756,38,782
+cvar-qrdqn,distributional RL,w_cost,2.4,4.0,0,mixed,96.0,23.8,6.14,2480,1460,1220,0,240
+cvar-qrdqn,distributional RL,w_cost,4.8,0.5,0,cpu-bound,97.5,11.9,1.28,430,367,84,117,166
+cvar-qrdqn,distributional RL,w_cost,4.8,0.5,0,memory-bound,97.3,5.6,0.44,141,0,0,0,0
+cvar-qrdqn,distributional RL,w_cost,4.8,0.5,0,io-bound,99.2,7.9,2.7,1957,1065,359,0,706
+cvar-qrdqn,distributional RL,w_cost,4.8,0.5,0,mixed,96.0,31.9,2.79,2900,3040,400,1280,1360
+cvar-qrdqn,distributional RL,w_cost,4.8,1.0,0,cpu-bound,99.4,7.5,1.76,567,748,65,279,404
+cvar-qrdqn,distributional RL,w_cost,4.8,1.0,0,memory-bound,94.1,5.7,1.2,123,14,1,13,0
+cvar-qrdqn,distributional RL,w_cost,4.8,1.0,0,io-bound,99.4,7.7,3.51,3308,2860,353,282,2225
+cvar-qrdqn,distributional RL,w_cost,4.8,1.0,0,mixed,96.5,34.8,3.55,3140,2800,320,360,2120
+cvar-qrdqn,distributional RL,w_cost,4.8,2.0,0,cpu-bound,99.4,7.4,1.69,439,432,134,117,181
+cvar-qrdqn,distributional RL,w_cost,4.8,2.0,0,memory-bound,76.0,6.9,0.45,187,25,25,0,0
+cvar-qrdqn,distributional RL,w_cost,4.8,2.0,0,io-bound,99.2,7.7,4.54,2526,2185,251,448,1486
+cvar-qrdqn,distributional RL,w_cost,4.8,2.0,0,mixed,97.0,30.0,3.67,2080,1840,360,240,1240
+cvar-qrdqn,distributional RL,w_cost,4.8,4.0,0,cpu-bound,98.4,7.9,1.67,3660,3537,122,73,3342
+cvar-qrdqn,distributional RL,w_cost,4.8,4.0,0,memory-bound,98.0,5.5,0.89,2609,136,52,20,64
+cvar-qrdqn,distributional RL,w_cost,4.8,4.0,0,io-bound,98.8,7.7,4.13,2486,3662,1386,186,2090
+cvar-qrdqn,distributional RL,w_cost,4.8,4.0,0,mixed,96.5,29.9,3.56,3060,3240,760,640,1840
+ppo,value / on-policy RL,w_cost,0.0375,0.5,0,cpu-bound,99.6,7.1,1.43,6,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,0.5,0,memory-bound,98.2,5.5,3.37,2051,2467,1032,1435,0
+ppo,value / on-policy RL,w_cost,0.0375,0.5,0,io-bound,99.3,7.9,3.03,26,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,0.5,0,mixed,99.0,22.0,4.84,100,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,1.0,0,cpu-bound,99.6,7.0,2.46,22,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,1.0,0,memory-bound,98.2,5.5,6.69,22,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,1.0,0,io-bound,99.4,7.7,3.69,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,1.0,0,mixed,99.0,22.0,4.82,60,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,2.0,0,cpu-bound,99.6,6.8,4.04,23,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,2.0,0,memory-bound,65.0,6.6,2.32,43,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,2.0,0,io-bound,99.4,7.7,3.57,26,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,2.0,0,mixed,99.0,22.0,4.82,80,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,4.0,0,cpu-bound,99.6,6.8,3.73,121,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,4.0,0,memory-bound,98.2,5.5,3.64,821,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,4.0,0,io-bound,99.4,7.7,3.55,31,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.0375,4.0,0,mixed,98.0,22.0,8.4,140,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,0.5,0,cpu-bound,99.5,7.0,1.57,166,67,0,0,67
+ppo,value / on-policy RL,w_cost,0.075,0.5,0,memory-bound,97.6,5.5,2.44,86,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,0.5,0,io-bound,99.4,7.7,3.46,60,13,0,0,13
+ppo,value / on-policy RL,w_cost,0.075,0.5,0,mixed,97.0,22.5,4.83,300,120,0,0,120
+ppo,value / on-policy RL,w_cost,0.075,1.0,0,cpu-bound,99.6,7.0,2.46,22,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,1.0,0,memory-bound,98.2,5.5,2.2,661,269,269,0,0
+ppo,value / on-policy RL,w_cost,0.075,1.0,0,io-bound,99.3,7.8,2.97,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,1.0,0,mixed,98.5,22.1,3.57,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,2.0,0,cpu-bound,99.6,6.7,6.08,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,2.0,0,memory-bound,96.5,5.6,5.57,26,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,2.0,0,io-bound,99.4,7.7,5.16,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,2.0,0,mixed,99.0,22.0,6.3,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,4.0,0,cpu-bound,99.6,7.0,2.45,6,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,4.0,0,memory-bound,88.6,5.8,3.17,76,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,4.0,0,io-bound,99.4,7.7,3.4,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.075,4.0,0,mixed,98.0,22.0,3.95,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,0.5,0,cpu-bound,99.6,7.0,1.5,6,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,0.5,0,memory-bound,96.0,5.6,0.98,54,4,4,0,0
+ppo,value / on-policy RL,w_cost,0.15,0.5,0,io-bound,99.3,7.8,2.75,27,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,0.5,0,mixed,98.5,22.1,3.57,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,1.0,0,cpu-bound,99.6,7.0,1.66,22,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,1.0,0,memory-bound,97.2,5.6,3.76,164,13,13,0,0
+ppo,value / on-policy RL,w_cost,0.15,1.0,0,io-bound,99.3,7.8,3.1,36,1,1,0,0
+ppo,value / on-policy RL,w_cost,0.15,1.0,0,mixed,99.0,22.0,4.15,60,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,2.0,0,cpu-bound,99.6,7.0,2.46,22,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,2.0,0,memory-bound,97.8,5.5,2.44,42,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,2.0,0,io-bound,99.4,7.7,3.57,21,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,2.0,0,mixed,99.0,22.0,4.82,60,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,4.0,0,cpu-bound,99.6,7.0,2.45,6,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,4.0,0,memory-bound,98.2,5.5,2.46,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,4.0,0,io-bound,99.4,7.7,3.4,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.15,4.0,0,mixed,98.0,25.5,3.92,80,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,0.5,0,cpu-bound,99.6,7.2,1.27,17,4,4,0,0
+ppo,value / on-policy RL,w_cost,0.3,0.5,0,memory-bound,98.2,5.5,0.59,69,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,0.5,0,io-bound,99.3,7.8,2.98,108,21,21,0,0
+ppo,value / on-policy RL,w_cost,0.3,0.5,0,mixed,99.0,22.0,3.99,100,20,20,0,0
+ppo,value / on-policy RL,w_cost,0.3,1.0,0,cpu-bound,99.6,7.0,2.01,26,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,1.0,0,memory-bound,95.4,5.6,0.68,61,20,20,0,0
+ppo,value / on-policy RL,w_cost,0.3,1.0,0,io-bound,99.4,7.7,3.72,35,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,1.0,0,mixed,99.0,22.0,4.72,100,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,2.0,0,cpu-bound,99.6,7.0,2.46,23,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,2.0,0,memory-bound,97.6,5.5,1.77,56,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,2.0,0,io-bound,99.4,7.7,3.57,35,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,2.0,0,mixed,97.5,22.2,3.57,40,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,4.0,0,cpu-bound,99.6,6.6,9.37,0,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,4.0,0,memory-bound,0.0,67.5,9.37,0,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,4.0,0,io-bound,96.5,7.8,9.37,0,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.3,4.0,0,mixed,89.5,49.8,9.28,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.6,0.5,0,cpu-bound,99.2,8.0,1.4,358,297,111,0,186
+ppo,value / on-policy RL,w_cost,0.6,0.5,0,memory-bound,69.5,6.5,0.71,490,59,18,0,41
+ppo,value / on-policy RL,w_cost,0.6,0.5,0,io-bound,85.4,8.9,3.4,506,113,21,0,92
+ppo,value / on-policy RL,w_cost,0.6,0.5,0,mixed,97.0,24.1,3.96,160,80,20,0,60
+ppo,value / on-policy RL,w_cost,0.6,1.0,0,cpu-bound,99.5,7.2,2.26,42,6,6,0,0
+ppo,value / on-policy RL,w_cost,0.6,1.0,0,memory-bound,98.2,5.5,0.77,104,20,20,0,0
+ppo,value / on-policy RL,w_cost,0.6,1.0,0,io-bound,99.3,7.8,3.05,74,21,21,0,0
+ppo,value / on-policy RL,w_cost,0.6,1.0,0,mixed,98.5,22.6,4.1,160,20,20,0,0
+ppo,value / on-policy RL,w_cost,0.6,2.0,0,cpu-bound,99.6,7.0,2.16,28,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.6,2.0,0,memory-bound,94.7,5.6,2.56,59,11,11,0,0
+ppo,value / on-policy RL,w_cost,0.6,2.0,0,io-bound,99.4,7.7,4.43,42,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.6,2.0,0,mixed,98.0,22.0,6.27,80,0,0,0,0
+ppo,value / on-policy RL,w_cost,0.6,4.0,0,cpu-bound,97.4,15.4,2.13,39,9,4,0,5
+ppo,value / on-policy RL,w_cost,0.6,4.0,0,memory-bound,0.0,65.4,0.71,471,2,2,0,0
+ppo,value / on-policy RL,w_cost,0.6,4.0,0,io-bound,80.0,92.2,2.01,235,58,20,0,38
+ppo,value / on-policy RL,w_cost,0.6,4.0,0,mixed,95.5,65.3,3.85,80,20,20,0,0
+ppo,value / on-policy RL,w_cost,1.2,0.5,0,cpu-bound,99.4,7.5,1.28,90,29,29,0,0
+ppo,value / on-policy RL,w_cost,1.2,0.5,0,memory-bound,96.6,5.6,1.23,67,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,0.5,0,io-bound,96.4,8.1,3.05,63,11,11,0,0
+ppo,value / on-policy RL,w_cost,1.2,0.5,0,mixed,97.5,24.1,3.91,160,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,1.0,0,cpu-bound,98.3,7.2,1.5,17,6,0,0,6
+ppo,value / on-policy RL,w_cost,1.2,1.0,0,memory-bound,98.2,5.5,0.58,88,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,1.0,0,io-bound,99.1,7.7,3.49,40,18,0,0,18
+ppo,value / on-policy RL,w_cost,1.2,1.0,0,mixed,96.5,24.1,4.7,140,60,20,0,40
+ppo,value / on-policy RL,w_cost,1.2,2.0,0,cpu-bound,99.6,7.0,1.57,8,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,2.0,0,memory-bound,67.5,6.6,1.32,60,11,11,0,0
+ppo,value / on-policy RL,w_cost,1.2,2.0,0,io-bound,99.3,7.8,3.4,30,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,2.0,0,mixed,98.5,24.0,4.8,60,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,4.0,0,cpu-bound,99.6,6.7,4.04,22,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,4.0,0,memory-bound,97.8,5.9,1.0,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,4.0,0,io-bound,99.4,7.7,3.57,20,0,0,0,0
+ppo,value / on-policy RL,w_cost,1.2,4.0,0,mixed,98.0,48.6,4.15,60,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,0.5,0,cpu-bound,98.7,8.5,1.28,280,288,131,1,156
+ppo,value / on-policy RL,w_cost,2.4,0.5,0,memory-bound,98.2,5.5,0.4,0,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,0.5,0,io-bound,68.0,11.0,3.8,1054,500,181,0,319
+ppo,value / on-policy RL,w_cost,2.4,0.5,0,mixed,94.0,46.2,4.74,680,180,60,0,120
+ppo,value / on-policy RL,w_cost,2.4,1.0,0,cpu-bound,98.0,7.2,1.57,70,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,1.0,0,memory-bound,98.2,5.5,0.9,26,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,1.0,0,io-bound,96.8,7.8,3.26,51,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,1.0,0,mixed,89.5,44.1,4.76,200,40,0,0,40
+ppo,value / on-policy RL,w_cost,2.4,2.0,0,cpu-bound,98.7,7.6,3.56,3552,3576,92,3321,163
+ppo,value / on-policy RL,w_cost,2.4,2.0,0,memory-bound,98.2,5.5,0.79,27,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,2.0,0,io-bound,99.1,7.7,4.46,1288,1296,2,76,1218
+ppo,value / on-policy RL,w_cost,2.4,2.0,0,mixed,96.5,24.6,4.29,2780,2680,40,1800,840
+ppo,value / on-policy RL,w_cost,2.4,4.0,0,cpu-bound,99.6,6.9,2.16,24,0,0,0,0
+ppo,value / on-policy RL,w_cost,2.4,4.0,0,memory-bound,5.0,16.8,0.8,52,14,14,0,0
+ppo,value / on-policy RL,w_cost,2.4,4.0,0,io-bound,99.4,7.7,3.98,483,182,182,0,0
+ppo,value / on-policy RL,w_cost,2.4,4.0,0,mixed,98.5,24.0,5.41,380,220,220,0,0
+ppo,value / on-policy RL,w_cost,4.8,0.5,0,cpu-bound,97.8,10.4,1.31,252,176,64,0,112
+ppo,value / on-policy RL,w_cost,4.8,0.5,0,memory-bound,53.2,7.2,0.69,64,17,17,0,0
+ppo,value / on-policy RL,w_cost,4.8,0.5,0,io-bound,99.2,8.1,2.94,69,7,0,0,7
+ppo,value / on-policy RL,w_cost,4.8,0.5,0,mixed,97.0,24.2,3.9,160,20,0,0,20
+ppo,value / on-policy RL,w_cost,4.8,1.0,0,cpu-bound,97.8,7.7,1.31,33,13,7,6,0
+ppo,value / on-policy RL,w_cost,4.8,1.0,0,memory-bound,0.0,67.5,0.4,0,0,0,0,0
+ppo,value / on-policy RL,w_cost,4.8,1.0,0,io-bound,54.0,18.5,2.55,99,17,10,0,7
+ppo,value / on-policy RL,w_cost,4.8,1.0,0,mixed,81.5,48.4,4.61,240,80,40,20,20
+ppo,value / on-policy RL,w_cost,4.8,2.0,0,cpu-bound,97.8,10.0,1.26,434,510,160,187,163
+ppo,value / on-policy RL,w_cost,4.8,2.0,0,memory-bound,0.5,19.9,0.81,32,16,11,0,5
+ppo,value / on-policy RL,w_cost,4.8,2.0,0,io-bound,71.5,11.0,4.0,2061,2900,1514,0,1386
+ppo,value / on-policy RL,w_cost,4.8,2.0,0,mixed,94.5,37.3,3.35,1880,2740,1240,200,1300
+ppo,value / on-policy RL,w_cost,4.8,4.0,0,cpu-bound,97.7,8.4,5.39,1803,3555,1746,1784,25
+ppo,value / on-policy RL,w_cost,4.8,4.0,0,memory-bound,98.2,5.5,0.81,58,58,0,58,0
+ppo,value / on-policy RL,w_cost,4.8,4.0,0,io-bound,42.2,14.1,5.45,2450,3918,1243,2088,587
+ppo,value / on-policy RL,w_cost,4.8,4.0,0,mixed,89.5,24.0,5.25,1980,3620,1640,1860,120
+dqn,value / on-policy RL,w_cost,0.0375,0.5,0,cpu-bound,99.5,7.2,1.87,129,50,2,0,48
+dqn,value / on-policy RL,w_cost,0.0375,0.5,0,memory-bound,98.2,5.5,0.77,147,70,31,39,0
+dqn,value / on-policy RL,w_cost,0.0375,0.5,0,io-bound,99.4,7.7,3.24,76,0,0,0,0
+dqn,value / on-policy RL,w_cost,0.0375,0.5,0,mixed,99.0,22.0,4.14,100,0,0,0,0
+dqn,value / on-policy RL,w_cost,0.0375,1.0,0,cpu-bound,99.5,7.2,1.41,168,53,0,19,34
+dqn,value / on-policy RL,w_cost,0.0375,1.0,0,memory-bound,98.2,5.5,0.5,123,22,1,21,0
+dqn,value / on-policy RL,w_cost,0.0375,1.0,0,io-bound,99.2,8.0,2.73,76,6,0,0,6
+dqn,value / on-policy RL,w_cost,0.0375,1.0,0,mixed,98.0,25.9,4.12,100,0,0,0,0
+dqn,value / on-policy RL,w_cost,0.0375,2.0,0,cpu-bound,97.7,14.0,0.96,286,230,75,110,45
+dqn,value / on-policy RL,w_cost,0.0375,2.0,0,memory-bound,98.0,6.2,0.95,1172,247,195,50,2
+dqn,value / on-policy RL,w_cost,0.0375,2.0,0,io-bound,98.4,10.5,2.28,358,299,68,159,72
+dqn,value / on-policy RL,w_cost,0.0375,2.0,0,mixed,92.5,72.1,2.02,820,640,160,280,200
+dqn,value / on-policy RL,w_cost,0.0375,4.0,0,cpu-bound,98.2,12.5,1.53,190,212,78,0,134
+dqn,value / on-policy RL,w_cost,0.0375,4.0,0,memory-bound,98.2,5.5,3.61,45,7,7,0,0
+dqn,value / on-policy RL,w_cost,0.0375,4.0,0,io-bound,99.3,7.8,3.06,53,44,0,0,44
+dqn,value / on-policy RL,w_cost,0.0375,4.0,0,mixed,94.0,57.9,2.92,780,640,360,0,280
+dqn,value / on-policy RL,w_cost,0.075,0.5,0,cpu-bound,98.4,7.1,3.67,2438,162,0,0,162
+dqn,value / on-policy RL,w_cost,0.075,0.5,0,memory-bound,98.0,5.5,0.96,341,204,79,95,30
+dqn,value / on-policy RL,w_cost,0.075,0.5,0,io-bound,90.0,8.4,7.48,1594,904,0,4,900
+dqn,value / on-policy RL,w_cost,0.075,0.5,0,mixed,93.0,22.7,9.12,1000,520,0,0,520
+dqn,value / on-policy RL,w_cost,0.075,1.0,0,cpu-bound,96.6,16.9,1.19,380,547,111,137,299
+dqn,value / on-policy RL,w_cost,0.075,1.0,0,memory-bound,82.2,54.3,0.37,3463,4055,836,1635,1584
+dqn,value / on-policy RL,w_cost,0.075,1.0,0,io-bound,83.0,34.6,2.07,3212,4543,813,1255,2475
+dqn,value / on-policy RL,w_cost,0.075,1.0,0,mixed,89.5,78.2,2.57,1580,2240,400,720,1120
+dqn,value / on-policy RL,w_cost,0.075,2.0,0,cpu-bound,99.5,7.2,2.16,338,8,2,0,6
+dqn,value / on-policy RL,w_cost,0.075,2.0,0,memory-bound,97.9,5.6,1.83,457,85,76,9,0
+dqn,value / on-policy RL,w_cost,0.075,2.0,0,io-bound,99.4,7.7,4.11,220,25,20,3,2
+dqn,value / on-policy RL,w_cost,0.075,2.0,0,mixed,98.5,22.6,9.05,840,80,40,0,40
+dqn,value / on-policy RL,w_cost,0.075,4.0,0,cpu-bound,99.6,7.0,2.02,218,22,10,9,3
+dqn,value / on-policy RL,w_cost,0.075,4.0,0,memory-bound,97.7,5.5,1.3,1623,1066,305,761,0
+dqn,value / on-policy RL,w_cost,0.075,4.0,0,io-bound,99.4,7.7,4.52,407,123,9,114,0
+dqn,value / on-policy RL,w_cost,0.075,4.0,0,mixed,99.0,22.0,8.18,320,100,60,40,0
+dqn,value / on-policy RL,w_cost,0.15,0.5,0,cpu-bound,99.5,7.1,1.58,213,34,23,9,2
+dqn,value / on-policy RL,w_cost,0.15,0.5,0,memory-bound,98.2,5.5,0.79,1215,11,0,11,0
+dqn,value / on-policy RL,w_cost,0.15,0.5,0,io-bound,99.3,7.8,3.05,650,10,10,0,0
+dqn,value / on-policy RL,w_cost,0.15,0.5,0,mixed,98.0,26.0,3.9,1180,40,0,0,40
+dqn,value / on-policy RL,w_cost,0.15,1.0,0,cpu-bound,98.1,8.2,1.45,392,187,76,0,111
+dqn,value / on-policy RL,w_cost,0.15,1.0,0,memory-bound,98.0,5.5,1.64,220,77,24,53,0
+dqn,value / on-policy RL,w_cost,0.15,1.0,0,io-bound,97.8,8.0,3.05,281,110,24,2,84
+dqn,value / on-policy RL,w_cost,0.15,1.0,0,mixed,94.0,47.3,3.83,920,360,120,0,240
+dqn,value / on-policy RL,w_cost,0.15,2.0,0,cpu-bound,98.4,7.2,1.53,280,247,31,47,169
+dqn,value / on-policy RL,w_cost,0.15,2.0,0,memory-bound,81.4,6.1,0.83,2136,1296,32,148,1116
+dqn,value / on-policy RL,w_cost,0.15,2.0,0,io-bound,73.7,9.8,3.02,2773,2157,27,56,2074
+dqn,value / on-policy RL,w_cost,0.15,2.0,0,mixed,90.5,25.9,4.76,820,580,20,80,480
+dqn,value / on-policy RL,w_cost,0.15,4.0,0,cpu-bound,98.6,7.4,1.74,278,383,87,91,205
+dqn,value / on-policy RL,w_cost,0.15,4.0,0,memory-bound,90.8,6.0,0.77,2057,2072,581,638,853
+dqn,value / on-policy RL,w_cost,0.15,4.0,0,io-bound,89.2,8.5,3.31,2091,2517,535,580,1402
+dqn,value / on-policy RL,w_cost,0.15,4.0,0,mixed,95.5,22.5,4.48,820,680,160,160,360
+dqn,value / on-policy RL,w_cost,0.3,0.5,0,cpu-bound,96.8,14.6,1.05,380,181,106,6,69
+dqn,value / on-policy RL,w_cost,0.3,0.5,0,memory-bound,97.8,7.4,0.7,271,74,45,29,0
+dqn,value / on-policy RL,w_cost,0.3,0.5,0,io-bound,98.8,8.6,2.43,182,68,37,4,27
+dqn,value / on-policy RL,w_cost,0.3,0.5,0,mixed,93.5,42.7,2.43,780,220,120,20,80
+dqn,value / on-policy RL,w_cost,0.3,1.0,0,cpu-bound,96.4,19.0,1.06,302,251,93,62,96
+dqn,value / on-policy RL,w_cost,0.3,1.0,0,memory-bound,96.9,5.6,0.79,221,122,56,66,0
+dqn,value / on-policy RL,w_cost,0.3,1.0,0,io-bound,99.1,8.2,2.59,73,15,1,0,14
+dqn,value / on-policy RL,w_cost,0.3,1.0,0,mixed,94.5,43.2,2.02,480,360,120,120,120
+dqn,value / on-policy RL,w_cost,0.3,2.0,0,cpu-bound,97.2,12.9,1.13,2475,183,64,0,119
+dqn,value / on-policy RL,w_cost,0.3,2.0,0,memory-bound,97.4,5.6,0.66,1722,138,20,1,117
+dqn,value / on-policy RL,w_cost,0.3,2.0,0,io-bound,88.9,8.8,3.09,2024,1151,142,0,1009
+dqn,value / on-policy RL,w_cost,0.3,2.0,0,mixed,91.5,59.4,2.77,2560,480,80,0,400
+dqn,value / on-policy RL,w_cost,0.3,4.0,0,cpu-bound,97.0,16.2,0.9,249,334,136,99,99
+dqn,value / on-policy RL,w_cost,0.3,4.0,0,memory-bound,98.0,5.5,1.33,2444,1765,1702,17,46
+dqn,value / on-policy RL,w_cost,0.3,4.0,0,io-bound,98.5,7.8,2.71,232,192,58,60,74
+dqn,value / on-policy RL,w_cost,0.3,4.0,0,mixed,95.0,58.4,2.75,400,480,200,120,160
+dqn,value / on-policy RL,w_cost,0.6,0.5,0,cpu-bound,96.4,14.7,1.16,368,203,120,28,55
+dqn,value / on-policy RL,w_cost,0.6,0.5,0,memory-bound,98.0,5.5,0.66,379,187,109,78,0
+dqn,value / on-policy RL,w_cost,0.6,0.5,0,io-bound,98.4,9.4,2.21,363,188,112,17,59
+dqn,value / on-policy RL,w_cost,0.6,0.5,0,mixed,94.0,45.1,2.36,760,240,160,0,80
+dqn,value / on-policy RL,w_cost,0.6,1.0,0,cpu-bound,97.8,8.9,1.53,324,200,174,3,23
+dqn,value / on-policy RL,w_cost,0.6,1.0,0,memory-bound,97.6,5.6,0.62,288,93,42,29,22
+dqn,value / on-policy RL,w_cost,0.6,1.0,0,io-bound,86.4,8.6,3.85,1856,1374,426,112,836
+dqn,value / on-policy RL,w_cost,0.6,1.0,0,mixed,90.5,35.5,3.75,2180,1160,840,80,240
+dqn,value / on-policy RL,w_cost,0.6,2.0,0,cpu-bound,98.1,9.8,1.55,277,210,90,53,67
+dqn,value / on-policy RL,w_cost,0.6,2.0,0,memory-bound,98.0,5.8,0.55,2226,1458,1447,0,11
+dqn,value / on-policy RL,w_cost,0.6,2.0,0,io-bound,97.9,7.8,3.44,1456,515,408,2,105
+dqn,value / on-policy RL,w_cost,0.6,2.0,0,mixed,93.5,62.9,2.84,1700,600,280,120,200
+dqn,value / on-policy RL,w_cost,0.6,4.0,0,cpu-bound,95.2,20.8,0.77,327,468,117,152,199
+dqn,value / on-policy RL,w_cost,0.6,4.0,0,memory-bound,80.3,9.7,0.55,3336,3538,128,1887,1523
+dqn,value / on-policy RL,w_cost,0.6,4.0,0,io-bound,62.3,86.9,1.92,2917,4638,1221,1468,1949
+dqn,value / on-policy RL,w_cost,0.6,4.0,0,mixed,87.0,77.9,1.57,1780,1740,440,620,680
+dqn,value / on-policy RL,w_cost,1.2,0.5,0,cpu-bound,96.0,16.2,1.11,339,313,84,103,126
+dqn,value / on-policy RL,w_cost,1.2,0.5,0,memory-bound,91.2,5.7,0.8,2656,2668,0,405,2263
+dqn,value / on-policy RL,w_cost,1.2,0.5,0,io-bound,94.4,11.1,2.13,526,323,96,51,176
+dqn,value / on-policy RL,w_cost,1.2,0.5,0,mixed,91.5,65.8,2.16,840,400,120,80,200
+dqn,value / on-policy RL,w_cost,1.2,1.0,0,cpu-bound,95.0,18.9,0.91,428,370,130,123,117
+dqn,value / on-policy RL,w_cost,1.2,1.0,0,memory-bound,88.0,5.8,0.53,1773,1076,377,155,544
+dqn,value / on-policy RL,w_cost,1.2,1.0,0,io-bound,73.0,88.0,1.86,2118,2197,1030,2,1165
+dqn,value / on-policy RL,w_cost,1.2,1.0,0,mixed,82.5,95.9,1.82,1520,1460,640,100,720
+dqn,value / on-policy RL,w_cost,1.2,2.0,0,cpu-bound,96.0,17.2,1.13,231,227,85,12,130
+dqn,value / on-policy RL,w_cost,1.2,2.0,0,memory-bound,90.9,5.7,1.07,3078,3496,955,1684,857
+dqn,value / on-policy RL,w_cost,1.2,2.0,0,io-bound,68.0,11.1,3.05,2428,3248,821,904,1523
+dqn,value / on-policy RL,w_cost,1.2,2.0,0,mixed,87.5,64.9,3.31,620,400,120,80,200
+dqn,value / on-policy RL,w_cost,1.2,4.0,0,cpu-bound,95.6,20.6,0.81,2067,591,108,226,257
+dqn,value / on-policy RL,w_cost,1.2,4.0,0,memory-bound,95.9,5.6,0.69,2391,1367,48,1199,120
+dqn,value / on-policy RL,w_cost,1.2,4.0,0,io-bound,93.3,22.8,1.93,851,686,264,85,337
+dqn,value / on-policy RL,w_cost,1.2,4.0,0,mixed,91.5,75.4,1.75,1000,840,200,360,280
+dqn,value / on-policy RL,w_cost,2.4,0.5,0,cpu-bound,92.4,30.5,0.82,414,378,176,103,99
+dqn,value / on-policy RL,w_cost,2.4,0.5,0,memory-bound,76.0,7.5,0.48,3129,3070,6,104,2960
+dqn,value / on-policy RL,w_cost,2.4,0.5,0,io-bound,74.6,64.9,1.69,1649,1385,609,97,679
+dqn,value / on-policy RL,w_cost,2.4,0.5,0,mixed,75.0,99.7,1.68,1560,1240,540,180,520
+dqn,value / on-policy RL,w_cost,2.4,1.0,0,cpu-bound,96.0,15.9,0.95,388,318,84,96,138
+dqn,value / on-policy RL,w_cost,2.4,1.0,0,memory-bound,95.3,5.6,0.54,3261,2814,696,1984,134
+dqn,value / on-policy RL,w_cost,2.4,1.0,0,io-bound,93.2,14.5,1.95,804,690,152,266,272
+dqn,value / on-policy RL,w_cost,2.4,1.0,0,mixed,88.0,77.3,1.56,1360,940,140,440,360
+dqn,value / on-policy RL,w_cost,2.4,2.0,0,cpu-bound,94.9,22.0,0.72,1015,404,94,150,160
+dqn,value / on-policy RL,w_cost,2.4,2.0,0,memory-bound,98.1,5.8,0.42,1757,989,49,911,29
+dqn,value / on-policy RL,w_cost,2.4,2.0,0,io-bound,90.6,30.6,1.75,1247,1301,370,498,433
+dqn,value / on-policy RL,w_cost,2.4,2.0,0,mixed,90.0,77.2,1.56,1100,1040,240,480,320
+dqn,value / on-policy RL,w_cost,2.4,4.0,0,cpu-bound,95.7,21.6,0.81,435,344,109,114,121
+dqn,value / on-policy RL,w_cost,2.4,4.0,0,memory-bound,92.5,22.8,0.48,3415,2910,1230,1450,230
+dqn,value / on-policy RL,w_cost,2.4,4.0,0,io-bound,95.0,19.2,1.95,2298,1630,649,782,199
+dqn,value / on-policy RL,w_cost,2.4,4.0,0,mixed,89.0,85.6,1.61,2040,1460,680,540,240
+dqn,value / on-policy RL,w_cost,4.8,0.5,0,cpu-bound,94.4,23.3,0.81,391,383,109,118,156
+dqn,value / on-policy RL,w_cost,4.8,0.5,0,memory-bound,98.0,5.5,0.57,468,9,0,9,0
+dqn,value / on-policy RL,w_cost,4.8,0.5,0,io-bound,87.7,36.4,1.72,1537,1352,374,329,649
+dqn,value / on-policy RL,w_cost,4.8,0.5,0,mixed,87.0,78.0,1.64,1440,1020,280,340,400
+dqn,value / on-policy RL,w_cost,4.8,1.0,0,cpu-bound,92.2,31.9,0.95,612,508,183,189,136
+dqn,value / on-policy RL,w_cost,4.8,1.0,0,memory-bound,85.3,6.0,0.49,3669,3390,2,1161,2227
+dqn,value / on-policy RL,w_cost,4.8,1.0,0,io-bound,82.6,39.2,1.77,1076,1088,276,306,506
+dqn,value / on-policy RL,w_cost,4.8,1.0,0,mixed,78.0,95.3,1.49,2120,1560,400,680,480
+dqn,value / on-policy RL,w_cost,4.8,2.0,0,cpu-bound,95.0,20.4,0.84,567,511,169,214,128
+dqn,value / on-policy RL,w_cost,4.8,2.0,0,memory-bound,81.4,6.1,0.38,2489,2639,2,1325,1312
+dqn,value / on-policy RL,w_cost,4.8,2.0,0,io-bound,87.8,26.2,1.9,1938,2099,469,786,844
+dqn,value / on-policy RL,w_cost,4.8,2.0,0,mixed,81.5,97.2,1.43,1740,1660,380,640,640
+dqn,value / on-policy RL,w_cost,4.8,4.0,0,cpu-bound,94.0,27.5,0.71,3535,3587,145,118,3324
+dqn,value / on-policy RL,w_cost,4.8,4.0,0,memory-bound,97.7,6.4,0.38,820,401,32,302,67
+dqn,value / on-policy RL,w_cost,4.8,4.0,0,io-bound,90.8,29.5,1.74,1178,1130,373,357,400
+dqn,value / on-policy RL,w_cost,4.8,4.0,0,mixed,87.0,84.7,1.57,1680,1440,360,480,600
+mpc,MPC,w_cost,0.0375,0.5,0,cpu-bound,99.5,7.2,1.27,17,0,0,0,0
+mpc,MPC,w_cost,0.0375,0.5,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.0375,0.5,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.0375,0.5,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.0375,1.0,0,cpu-bound,99.5,7.2,1.27,14,0,0,0,0
+mpc,MPC,w_cost,0.0375,1.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.0375,1.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.0375,1.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.0375,2.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.0375,2.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.0375,2.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.0375,2.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.0375,4.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.0375,4.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.0375,4.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.0375,4.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.075,0.5,0,cpu-bound,99.5,7.2,1.27,17,0,0,0,0
+mpc,MPC,w_cost,0.075,0.5,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.075,0.5,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.075,0.5,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.075,1.0,0,cpu-bound,99.5,7.2,1.27,14,0,0,0,0
+mpc,MPC,w_cost,0.075,1.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.075,1.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.075,1.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.075,2.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.075,2.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.075,2.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.075,2.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.075,4.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.075,4.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.075,4.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.075,4.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.15,0.5,0,cpu-bound,99.5,7.2,1.27,17,0,0,0,0
+mpc,MPC,w_cost,0.15,0.5,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.15,0.5,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.15,0.5,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.15,1.0,0,cpu-bound,99.5,7.2,1.27,14,0,0,0,0
+mpc,MPC,w_cost,0.15,1.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.15,1.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.15,1.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.15,2.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.15,2.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.15,2.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.15,2.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.15,4.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.15,4.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.15,4.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.15,4.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.3,0.5,0,cpu-bound,99.5,7.2,1.27,17,0,0,0,0
+mpc,MPC,w_cost,0.3,0.5,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.3,0.5,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.3,0.5,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.3,1.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.3,1.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.3,1.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.3,1.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.3,2.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.3,2.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.3,2.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.3,2.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.3,4.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.3,4.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.3,4.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.3,4.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.6,0.5,0,cpu-bound,99.5,7.3,1.27,18,0,0,0,0
+mpc,MPC,w_cost,0.6,0.5,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.6,0.5,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.6,0.5,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.6,1.0,0,cpu-bound,99.5,7.2,1.27,14,0,0,0,0
+mpc,MPC,w_cost,0.6,1.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.6,1.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.6,1.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.6,2.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.6,2.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.6,2.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.6,2.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,0.6,4.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,0.6,4.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,0.6,4.0,0,io-bound,97.6,10.0,2.19,157,0,0,0,0
+mpc,MPC,w_cost,0.6,4.0,0,mixed,96.5,28.5,3.89,180,0,0,0,0
+mpc,MPC,w_cost,1.2,0.5,0,cpu-bound,97.8,14.2,1.14,113,56,0,34,22
+mpc,MPC,w_cost,1.2,0.5,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,1.2,0.5,0,io-bound,96.6,13.1,2.08,282,40,40,0,0
+mpc,MPC,w_cost,1.2,0.5,0,mixed,89.5,46.0,1.81,1140,120,120,0,0
+mpc,MPC,w_cost,1.2,1.0,0,cpu-bound,99.5,7.2,1.27,14,0,0,0,0
+mpc,MPC,w_cost,1.2,1.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,1.2,1.0,0,io-bound,96.6,12.8,2.08,267,36,36,0,0
+mpc,MPC,w_cost,1.2,1.0,0,mixed,89.5,46.0,1.81,1140,120,120,0,0
+mpc,MPC,w_cost,1.2,2.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,1.2,2.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,1.2,2.0,0,io-bound,96.7,12.7,2.08,263,34,34,0,0
+mpc,MPC,w_cost,1.2,2.0,0,mixed,89.5,46.0,1.82,1140,120,120,0,0
+mpc,MPC,w_cost,1.2,4.0,0,cpu-bound,99.5,7.2,1.27,11,0,0,0,0
+mpc,MPC,w_cost,1.2,4.0,0,memory-bound,97.6,5.5,0.4,70,0,0,0,0
+mpc,MPC,w_cost,1.2,4.0,0,io-bound,96.8,12.5,2.08,257,32,32,0,0
+mpc,MPC,w_cost,1.2,4.0,0,mixed,89.5,46.0,1.82,1140,120,120,0,0
+mpc,MPC,w_cost,2.4,0.5,0,cpu-bound,93.6,27.3,0.91,345,254,63,103,88
+mpc,MPC,w_cost,2.4,0.5,0,memory-bound,97.5,9.3,0.3,130,0,0,0,0
+mpc,MPC,w_cost,2.4,0.5,0,io-bound,87.5,35.9,1.67,1378,315,267,24,24
+mpc,MPC,w_cost,2.4,0.5,0,mixed,79.5,91.6,1.49,1560,940,100,640,200
+mpc,MPC,w_cost,2.4,1.0,0,cpu-bound,94.3,24.0,0.95,358,270,69,107,94
+mpc,MPC,w_cost,2.4,1.0,0,memory-bound,97.5,8.5,0.3,128,0,0,0,0
+mpc,MPC,w_cost,2.4,1.0,0,io-bound,87.4,36.1,1.67,1390,315,269,22,24
+mpc,MPC,w_cost,2.4,1.0,0,mixed,82.0,84.5,1.52,1340,840,80,560,200
+mpc,MPC,w_cost,2.4,2.0,0,cpu-bound,94.4,23.4,0.96,352,262,61,107,94
+mpc,MPC,w_cost,2.4,2.0,0,memory-bound,97.5,8.1,0.3,127,0,0,0,0
+mpc,MPC,w_cost,2.4,2.0,0,io-bound,87.3,36.4,1.67,1398,315,275,16,24
+mpc,MPC,w_cost,2.4,2.0,0,mixed,83.5,81.7,1.54,1280,720,80,440,200
+mpc,MPC,w_cost,2.4,4.0,0,cpu-bound,93.8,25.7,0.94,363,298,114,92,92
+mpc,MPC,w_cost,2.4,4.0,0,memory-bound,97.5,8.0,0.3,127,0,0,0,0
+mpc,MPC,w_cost,2.4,4.0,0,io-bound,87.4,36.2,1.67,1397,308,275,12,21
+mpc,MPC,w_cost,2.4,4.0,0,mixed,85.0,80.7,1.56,1160,600,80,320,200
+mpc,MPC,w_cost,4.8,0.5,0,cpu-bound,91.7,36.2,0.64,390,296,103,110,83
+mpc,MPC,w_cost,4.8,0.5,0,memory-bound,97.5,9.0,0.3,120,0,0,0,0
+mpc,MPC,w_cost,4.8,0.5,0,io-bound,64.2,82.8,1.43,3258,2319,102,1237,980
+mpc,MPC,w_cost,4.8,0.5,0,mixed,79.5,96.6,1.43,1560,1020,140,640,240
+mpc,MPC,w_cost,4.8,1.0,0,cpu-bound,93.4,27.9,0.75,409,326,109,122,95
+mpc,MPC,w_cost,4.8,1.0,0,memory-bound,97.5,8.3,0.3,121,0,0,0,0
+mpc,MPC,w_cost,4.8,1.0,0,io-bound,64.5,80.9,1.43,3252,2293,101,1210,982
+mpc,MPC,w_cost,4.8,1.0,0,mixed,80.5,90.6,1.48,1520,960,80,640,240
+mpc,MPC,w_cost,4.8,2.0,0,cpu-bound,93.5,27.5,0.75,412,328,111,122,95
+mpc,MPC,w_cost,4.8,2.0,0,memory-bound,97.5,7.9,0.3,120,0,0,0,0
+mpc,MPC,w_cost,4.8,2.0,0,io-bound,64.8,79.2,1.43,3247,2273,101,1190,982
+mpc,MPC,w_cost,4.8,2.0,0,mixed,80.5,90.0,1.49,1520,960,80,640,240
+mpc,MPC,w_cost,4.8,4.0,0,cpu-bound,93.5,27.6,0.76,412,332,113,124,95
+mpc,MPC,w_cost,4.8,4.0,0,memory-bound,97.5,7.9,0.3,120,0,0,0,0
+mpc,MPC,w_cost,4.8,4.0,0,io-bound,65.4,76.3,1.44,3237,2222,105,1134,983
+mpc,MPC,w_cost,4.8,4.0,0,mixed,80.5,90.0,1.49,1500,960,80,640,240
+hpa-only,classical,hpa_target,0.3,,0,cpu-bound,87.9,52.4,0.56,238,33,33,0,0
+hpa-only,classical,hpa_target,0.3,,0,memory-bound,0.0,67.5,0.6,285,104,104,0,0
+hpa-only,classical,hpa_target,0.3,,0,io-bound,92.2,24.2,2.29,472,36,36,0,0
+hpa-only,classical,hpa_target,0.3,,0,mixed,61.0,232.6,1.56,1680,200,200,0,0
+hpa-only,classical,hpa_target,0.45,,0,cpu-bound,87.9,52.4,0.56,242,35,35,0,0
+hpa-only,classical,hpa_target,0.45,,0,memory-bound,0.0,73.4,0.41,276,101,101,0,0
+hpa-only,classical,hpa_target,0.45,,0,io-bound,92.2,24.2,2.12,871,143,143,0,0
+hpa-only,classical,hpa_target,0.45,,0,mixed,60.5,239.6,1.53,1520,160,160,0,0
+hpa-only,classical,hpa_target,0.6,,0,cpu-bound,87.9,52.4,0.56,250,33,33,0,0
+hpa-only,classical,hpa_target,0.6,,0,memory-bound,0.0,437.9,0.33,2639,1299,1299,0,0
+hpa-only,classical,hpa_target,0.6,,0,io-bound,91.5,25.6,1.87,1261,268,268,0,0
+hpa-only,classical,hpa_target,0.6,,0,mixed,60.5,239.6,1.53,1520,160,160,0,0
+hpa-only,classical,hpa_target,0.7,,0,cpu-bound,87.9,52.4,0.56,258,37,37,0,0
+hpa-only,classical,hpa_target,0.7,,0,memory-bound,0.0,615.9,0.32,2352,1152,1152,0,0
+hpa-only,classical,hpa_target,0.7,,0,io-bound,89.0,32.3,1.66,1376,334,334,0,0
+hpa-only,classical,hpa_target,0.7,,0,mixed,60.5,239.6,1.52,1520,160,160,0,0
+hpa-only,classical,hpa_target,0.8,,0,cpu-bound,87.8,52.7,0.56,260,42,42,0,0
+hpa-only,classical,hpa_target,0.8,,0,memory-bound,0.0,642.5,0.31,2209,1080,1080,0,0
+hpa-only,classical,hpa_target,0.8,,0,io-bound,78.3,60.0,1.47,1427,382,382,0,0
+hpa-only,classical,hpa_target,0.8,,0,mixed,60.5,239.6,1.49,1520,160,160,0,0
+hpa-only,classical,hpa_target,0.9,,0,cpu-bound,87.8,52.7,0.55,280,48,48,0,0
+hpa-only,classical,hpa_target,0.9,,0,memory-bound,0.0,1109.0,0.21,194,77,77,0,0
+hpa-only,classical,hpa_target,0.9,,0,io-bound,54.8,131.9,1.31,1428,406,406,0,0
+hpa-only,classical,hpa_target,0.9,,0,mixed,60.5,240.9,1.48,1520,160,160,0,0
+hpa-vpa,classical,hpa_target,0.3,,0,cpu-bound,87.4,57.6,0.56,412,146,33,0,113
+hpa-vpa,classical,hpa_target,0.3,,0,memory-bound,95.2,5.6,0.6,2745,1631,104,0,1527
+hpa-vpa,classical,hpa_target,0.3,,0,io-bound,88.3,26.1,2.29,2169,1073,36,0,1037
+hpa-vpa,classical,hpa_target,0.3,,0,mixed,61.5,163.9,1.56,2040,560,200,0,360
+hpa-vpa,classical,hpa_target,0.45,,0,cpu-bound,87.4,57.6,0.56,415,148,35,0,113
+hpa-vpa,classical,hpa_target,0.45,,0,memory-bound,95.1,6.1,0.41,2732,1628,101,0,1527
+hpa-vpa,classical,hpa_target,0.45,,0,io-bound,88.3,26.1,2.12,2375,1180,143,0,1037
+hpa-vpa,classical,hpa_target,0.45,,0,mixed,61.0,168.5,1.53,1920,520,160,0,360
+hpa-vpa,classical,hpa_target,0.6,,0,cpu-bound,87.4,57.6,0.56,424,146,33,0,113
+hpa-vpa,classical,hpa_target,0.6,,0,memory-bound,86.4,35.9,0.33,3551,2826,1299,0,1527
+hpa-vpa,classical,hpa_target,0.6,,0,io-bound,87.6,27.5,1.87,2586,1305,268,0,1037
+hpa-vpa,classical,hpa_target,0.6,,0,mixed,61.0,168.5,1.53,1920,520,160,0,360
+hpa-vpa,classical,hpa_target,0.7,,0,cpu-bound,87.4,57.6,0.56,430,150,37,0,113
+hpa-vpa,classical,hpa_target,0.7,,0,memory-bound,82.2,50.8,0.32,3423,2679,1152,0,1527
+hpa-vpa,classical,hpa_target,0.7,,0,io-bound,85.2,34.5,1.66,2651,1371,334,0,1037
+hpa-vpa,classical,hpa_target,0.7,,0,mixed,61.0,168.5,1.52,1900,520,160,0,360
+hpa-vpa,classical,hpa_target,0.8,,0,cpu-bound,87.4,57.8,0.56,430,155,42,0,113
+hpa-vpa,classical,hpa_target,0.8,,0,memory-bound,81.1,52.8,0.31,3381,2607,1080,0,1527
+hpa-vpa,classical,hpa_target,0.8,,0,io-bound,75.0,64.6,1.47,2679,1419,382,0,1037
+hpa-vpa,classical,hpa_target,0.8,,0,mixed,61.0,168.5,1.49,1900,520,160,0,360
+hpa-vpa,classical,hpa_target,0.9,,0,cpu-bound,87.4,57.9,0.55,450,161,48,0,113
+hpa-vpa,classical,hpa_target,0.9,,0,memory-bound,69.8,91.2,0.21,2723,1604,77,0,1527
+hpa-vpa,classical,hpa_target,0.9,,0,io-bound,52.5,143.4,1.31,2674,1443,406,0,1037
+hpa-vpa,classical,hpa_target,0.9,,0,mixed,61.0,169.3,1.48,1900,520,160,0,360
+predictive,classical,hpa_target,0.3,,0,cpu-bound,88.0,52.2,0.57,198,15,15,0,0
+predictive,classical,hpa_target,0.3,,0,memory-bound,0.0,68.7,0.58,610,292,292,0,0
+predictive,classical,hpa_target,0.3,,0,io-bound,92.2,24.2,2.28,504,42,42,0,0
+predictive,classical,hpa_target,0.3,,0,mixed,61.0,232.6,1.62,1600,160,160,0,0
+predictive,classical,hpa_target,0.45,,0,cpu-bound,88.0,52.1,0.57,198,15,15,0,0
+predictive,classical,hpa_target,0.45,,0,memory-bound,0.0,105.6,0.39,597,277,277,0,0
+predictive,classical,hpa_target,0.45,,0,io-bound,92.2,24.2,2.09,801,98,98,0,0
+predictive,classical,hpa_target,0.45,,0,mixed,60.5,234.6,1.57,1600,160,160,0,0
+predictive,classical,hpa_target,0.6,,0,cpu-bound,88.0,52.2,0.57,218,21,21,0,0
+predictive,classical,hpa_target,0.6,,0,memory-bound,0.0,431.6,0.33,2636,1297,1297,0,0
+predictive,classical,hpa_target,0.6,,0,io-bound,91.1,26.6,1.81,1094,189,189,0,0
+predictive,classical,hpa_target,0.6,,0,mixed,60.5,234.6,1.55,1600,160,160,0,0
+predictive,classical,hpa_target,0.7,,0,cpu-bound,87.9,52.3,0.56,226,25,25,0,0
+predictive,classical,hpa_target,0.7,,0,memory-bound,0.0,460.7,0.33,2576,1265,1265,0,0
+predictive,classical,hpa_target,0.7,,0,io-bound,86.5,38.5,1.6,1173,216,216,0,0
+predictive,classical,hpa_target,0.7,,0,mixed,60.5,234.6,1.54,1520,160,160,0,0
+predictive,classical,hpa_target,0.8,,0,cpu-bound,87.9,52.4,0.56,246,33,33,0,0
+predictive,classical,hpa_target,0.8,,0,memory-bound,0.0,1137.2,0.21,92,26,26,0,0
+predictive,classical,hpa_target,0.8,,0,io-bound,70.9,80.5,1.42,1158,236,236,0,0
+predictive,classical,hpa_target,0.8,,0,mixed,60.5,234.6,1.53,1440,120,120,0,0
+predictive,classical,hpa_target,0.9,,0,cpu-bound,87.9,52.5,0.56,254,33,33,0,0
+predictive,classical,hpa_target,0.9,,0,memory-bound,0.0,1149.4,0.2,40,0,0,0,0
+predictive,classical,hpa_target,0.9,,0,io-bound,45.7,166.9,1.27,1130,268,268,0,0
+predictive,classical,hpa_target,0.9,,0,mixed,60.0,235.2,1.49,1440,120,120,0,0
+predictive-vpa,classical,hpa_target,0.3,,0,cpu-bound,87.5,57.3,0.57,371,128,15,0,113
+predictive-vpa,classical,hpa_target,0.3,,0,memory-bound,95.2,5.7,0.58,2835,1819,292,0,1527
+predictive-vpa,classical,hpa_target,0.3,,0,io-bound,88.3,26.1,2.28,2185,1079,42,0,1037
+predictive-vpa,classical,hpa_target,0.3,,0,mixed,61.5,163.8,1.62,2000,520,160,0,360
+predictive-vpa,classical,hpa_target,0.45,,0,cpu-bound,87.5,56.9,0.57,372,128,15,0,113
+predictive-vpa,classical,hpa_target,0.45,,0,memory-bound,94.3,8.7,0.39,2826,1804,277,0,1527
+predictive-vpa,classical,hpa_target,0.45,,0,io-bound,88.3,26.1,2.09,2336,1135,98,0,1037
+predictive-vpa,classical,hpa_target,0.45,,0,mixed,61.0,165.8,1.57,1980,520,160,0,360
+predictive-vpa,classical,hpa_target,0.6,,0,cpu-bound,87.5,57.4,0.57,391,134,21,0,113
+predictive-vpa,classical,hpa_target,0.6,,0,memory-bound,86.5,35.4,0.33,3554,2824,1297,0,1527
+predictive-vpa,classical,hpa_target,0.6,,0,io-bound,87.3,28.6,1.81,2465,1226,189,0,1037
+predictive-vpa,classical,hpa_target,0.6,,0,mixed,61.0,165.9,1.55,1960,520,160,0,360
+predictive-vpa,classical,hpa_target,0.7,,0,cpu-bound,87.5,57.8,0.56,401,138,25,0,113
+predictive-vpa,classical,hpa_target,0.7,,0,memory-bound,85.6,37.8,0.33,3480,2792,1265,0,1527
+predictive-vpa,classical,hpa_target,0.7,,0,io-bound,82.8,41.0,1.6,2534,1253,216,0,1037
+predictive-vpa,classical,hpa_target,0.7,,0,mixed,61.0,165.9,1.54,1880,520,160,0,360
+predictive-vpa,classical,hpa_target,0.8,,0,cpu-bound,87.5,57.9,0.56,421,146,33,0,113
+predictive-vpa,classical,hpa_target,0.8,,0,memory-bound,69.2,93.4,0.21,2683,1553,26,0,1527
+predictive-vpa,classical,hpa_target,0.8,,0,io-bound,67.9,86.9,1.42,2529,1273,236,0,1037
+predictive-vpa,classical,hpa_target,0.8,,0,mixed,61.0,165.9,1.53,1780,480,120,0,360
+predictive-vpa,classical,hpa_target,0.9,,0,cpu-bound,87.4,58.0,0.56,425,146,33,0,113
+predictive-vpa,classical,hpa_target,0.9,,0,memory-bound,68.9,94.5,0.2,2660,1527,0,0,1527
+predictive-vpa,classical,hpa_target,0.9,,0,io-bound,43.8,179.8,1.27,2502,1305,268,0,1037
+predictive-vpa,classical,hpa_target,0.9,,0,mixed,60.5,166.5,1.49,1800,480,120,0,360

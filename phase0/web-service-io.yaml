@@ -1,0 +1,151 @@
+# Second app for the app-diversity workstream: same request/response shape as
+# web-service.yaml (/health, /alloc, default-path work + work_ms), but the
+# default path does genuine blocking disk IO (write+fsync) instead of CPU
+# hashing, so the RL policies get replayed against a physically different
+# bottleneck. Coexists with web-service in hv-phase0; teardown.sh removes both.
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: web-app-io-code
+  namespace: hv-phase0
+data:
+  app.py: |
+    import json, http.server, os, socketserver, time
+    from urllib.parse import urlparse, parse_qs
+
+    IO_KB = int(os.environ.get("IO_KB", "4"))            # KiB written per fsync
+    IO_ITERATIONS = int(os.environ.get("IO_ITERATIONS", "20"))  # write+fsync cycles per request
+    IO_DIR = os.environ.get("IO_DIR", "/data")
+
+    # Same ballast as web-service.yaml's app.py, byte-for-byte: RealClusterBackend
+    # drives /alloc from the memory-bound trace regardless of which app it's
+    # pointed at, and silently swallows failures, so a broken /alloc here would
+    # quietly zero out the memory axis of any io-bound/mixed replay.
+    _ballast = bytearray()
+
+    def _set_ballast(mb):
+        global _ballast
+        n = max(0, int(mb)) * 1024 * 1024
+        _ballast = bytearray()          # release the old buffer before allocating
+        b = bytearray(n)
+        for i in range(0, n, 4096):     # touch every page so RSS reflects the size
+            b[i] = 1
+        _ballast = b
+        return n // (1024 * 1024)
+
+    class Handler(http.server.BaseHTTPRequestHandler):
+        def do_GET(self):
+            p = urlparse(self.path)
+            if p.path == "/health":
+                self.send_response(200); self.end_headers(); self.wfile.write(b"ok"); return
+            if p.path == "/alloc":
+                mb = _set_ballast(parse_qs(p.query).get("mb", ["0"])[0])
+                self.send_response(200)
+                self.send_header("Content-Type", "application/json"); self.end_headers()
+                self.wfile.write(json.dumps({"ballast_mb": mb}).encode()); return
+            t0 = time.monotonic()
+            buf = os.urandom(IO_KB * 1024)
+            # a fresh file per request (unlinked after fsync) forces genuine
+            # uncached writes -- reusing one file let the node's page/inode cache
+            # make repeated fsyncs progressively cheaper, defeating the point.
+            path = os.path.join(IO_DIR, f"scratch_{os.getpid()}_{time.monotonic_ns()}.bin")
+            with open(path, "wb") as f:
+                for _ in range(IO_ITERATIONS):
+                    f.seek(0)
+                    f.write(buf)
+                    f.flush()
+                    os.fsync(f.fileno())
+            os.remove(path)
+            elapsed_ms = (time.monotonic() - t0) * 1000
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json")
+            self.end_headers()
+            self.wfile.write(json.dumps({"status": "ok", "work_ms": round(elapsed_ms, 1)}).encode())
+        def log_message(self, fmt, *args):
+            pass
+
+    with socketserver.ThreadingTCPServer(("", 8080), Handler) as s:
+        s.serve_forever()
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: web-service-io
+  namespace: hv-phase0
+  labels:
+    app: web-service-io
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: web-service-io
+  template:
+    metadata:
+      labels:
+        app: web-service-io
+    spec:
+      containers:
+      - name: web
+        image: python:3.10-slim
+        command: ["python", "/app/app.py"]
+        ports:
+        - containerPort: 8080
+        # Same in-place resize toggle as web-service.yaml -- resource envelope is
+        # kept identical to the CPU app on purpose (the variable under test is the
+        # app's runtime behavior, not its sizing).
+        resizePolicy:
+        - resourceName: cpu
+          restartPolicy: NotRequired
+        - resourceName: memory
+          restartPolicy: NotRequired
+        resources:
+          requests:
+            cpu: 200m
+            memory: 128Mi
+          limits:
+            cpu: 500m
+            memory: 256Mi
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 8080
+          initialDelaySeconds: 3
+          periodSeconds: 5
+        env:
+        # Sizing pass on this testbed (2026-07-14): fresh-file-per-request write+fsync
+        # of 1MB gives a flat ~10-15ms mean up to ~160 rps/pod-pair, then a real knee
+        # to 300+ms (with some failures) by ~240 rps -- a genuine load-dependent IO
+        # bottleneck, not fit to any formula. Pair with --max-rps ~300 on the RL
+        # replay so peak class traffic (io-bound/mixed intensity-scaled) actually
+        # reaches this knee instead of staying in the flat region.
+        - name: IO_KB
+          value: "1024"
+        - name: IO_ITERATIONS
+          value: "1"
+        - name: IO_DIR
+          value: "/data"
+        volumeMounts:
+        - name: app-code
+          mountPath: /app
+        - name: scratch
+          mountPath: /data
+      volumes:
+      - name: app-code
+        configMap:
+          name: web-app-io-code
+      - name: scratch
+        emptyDir:
+          sizeLimit: 64Mi
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: web-service-io
+  namespace: hv-phase0
+spec:
+  selector:
+    app: web-service-io
+  ports:
+  - port: 80
+    targetPort: 8080
+  type: ClusterIP

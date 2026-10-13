@@ -1,0 +1,9 @@
+workload,controller,sla_pct,mean_lat_ms,mean_cost_vcpu,replica_reversals,mem_reversals,steps,matched,short
+cpu-bound,keda,100.0,4.6,0.74,1,0,20,True,False
+cpu-bound,keda-vpa,100.0,4.6,0.68,0,2,20,True,False
+cpu-bound,QR-DQN,100.0,4.6,1.01,0,0,20,True,False
+cpu-bound,Option B,95.0,6.6,1.17,0,1,20,True,False
+memory-bound,keda,0.0,4750.3,0.32,0,0,20,True,False
+memory-bound,keda-vpa,90.0,504.9,0.29,0,2,20,True,False
+memory-bound,QR-DQN,70.0,1004.2,0.63,0,0,20,True,False
+memory-bound,Option B,50.0,1503.7,0.31,1,0,20,True,False

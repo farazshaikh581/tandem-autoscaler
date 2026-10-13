@@ -1,0 +1,16 @@
+2026-10-07T18:27:27Z   ScalingReplicaSet   Deployment   web-service   1     Scaled down replica set web-service-7f7498b47b from 4 to 2
+2026-10-07T18:27:27Z   SuccessfulDelete    ReplicaSet   web-service-7f7498b47b   1     Deleted pod: web-service-7f7498b47b-4nspp
+2026-10-07T18:27:27Z   SuccessfulDelete    ReplicaSet   web-service-7f7498b47b   1     Deleted pod: web-service-7f7498b47b-22wc2
+2026-10-07T18:27:27Z   Killing             Pod          web-service-7f7498b47b-4nspp   1     Stopping container web
+2026-10-07T18:27:27Z   Killing             Pod          web-service-7f7498b47b-22wc2   1     Stopping container web
+2026-10-07T18:27:27Z   ScalingReplicaSet   Deployment   web-service-io                 5     Scaled up replica set web-service-io-56bfd8b9c8 from 0 to 2
+2026-10-07T18:27:27Z   SuccessfulCreate    ReplicaSet   web-service-io-56bfd8b9c8      1     Created pod: web-service-io-56bfd8b9c8-j6www
+<nil>                  Scheduled           Pod          web-service-io-56bfd8b9c8-j6www   <none>   Successfully assigned hv-phase0/web-service-io-56bfd8b9c8-j6www to k8s-worker1
+2026-10-07T18:27:27Z   SuccessfulCreate    ReplicaSet   web-service-io-56bfd8b9c8         1        Created pod: web-service-io-56bfd8b9c8-kchpj
+<nil>                  Scheduled           Pod          web-service-io-56bfd8b9c8-kchpj   <none>   Successfully assigned hv-phase0/web-service-io-56bfd8b9c8-kchpj to k8s-worker4
+2026-10-07T18:27:28Z   Pulled              Pod          web-service-io-56bfd8b9c8-j6www   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-07T18:27:28Z   Pulled              Pod          web-service-io-56bfd8b9c8-kchpj   1        Container image "python:3.10-slim" already present on machine and can be accessed by the pod
+2026-10-07T18:27:28Z   Created             Pod          web-service-io-56bfd8b9c8-j6www   1        Container created
+2026-10-07T18:27:28Z   Created             Pod          web-service-io-56bfd8b9c8-kchpj   1        Container created
+2026-10-07T18:27:28Z   Started             Pod          web-service-io-56bfd8b9c8-j6www   1        Container started
+2026-10-07T18:27:28Z   Started             Pod          web-service-io-56bfd8b9c8-kchpj   1        Container started

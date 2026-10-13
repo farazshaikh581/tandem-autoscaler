@@ -1,0 +1,50 @@
+{
+  "reference": {
+    "L0_ms": 5.26,
+    "sla_ms": 20.0,
+    "lat_sat_ms": 403.0,
+    "sla_mult": 3.8023,
+    "sat_mult": 76.616
+  },
+  "notes": {
+    "memory-bound": "original app has no memory record; reassigned to bbefc779ce2a (cv 4.068 vs 4.092)"
+  },
+  "profiles": {
+    "cpu-bound": {
+      "l0_ms": 237.36,
+      "sla_ms": 902.51,
+      "lat_sat_ms": 18185.6,
+      "mem_need_mi": 141.6,
+      "azure_function": "b8b262f00cdff1708074af1370111644cc6d19a3b36e6495fe8c3e57fb32c86f",
+      "azure_app": "a7c55c0363f898498fcd7a675f02580ea0c8c6bc24b7d9bdf8c848fc1e08c96f",
+      "reassigned": false
+    },
+    "memory-bound": {
+      "l0_ms": 55.07,
+      "sla_ms": 209.39,
+      "lat_sat_ms": 4219.2,
+      "mem_need_mi": 110.9,
+      "azure_function": "bbefc779ce2a54e22f766e8cbff3574bd6886069ac47e18c78439fb892e3798a",
+      "azure_app": "5ffec6830f21de7c773a36a3b002e854952ca1b4d183e2c03f41bf22ccfdfeb6",
+      "reassigned": true
+    },
+    "io-bound": {
+      "l0_ms": 13.29,
+      "sla_ms": 50.53,
+      "lat_sat_ms": 1018.2,
+      "mem_need_mi": 177.5,
+      "azure_function": "538e03911ef39a51c19377b939e9d6122c08984f5230060ba09888eedec451c9",
+      "azure_app": "f6c4184427d6cba59b8759b16b60ab73b9d199f6ca6fdbfe5cb7a134e3a0c019",
+      "reassigned": false
+    },
+    "mixed": {
+      "l0_ms": 10.07,
+      "sla_ms": 38.29,
+      "lat_sat_ms": 771.5,
+      "mem_need_mi": 126.4,
+      "azure_function": "2ed599a184ce05d91ca7c3516876d9d10fb6c041fbcc1287aca3aa772c031d30",
+      "azure_app": "9f77dfd5daf43aab4d5c7aa2d3db00a8e46053496a8a7d15ba57b325feb31fe0",
+      "reassigned": false
+    }
+  }
+}
