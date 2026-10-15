@@ -12,19 +12,6 @@ training target. This repository contains the real-cluster measurements of Secti
 the calibrated simulator and the controllers of Sections 4 and 5, all evaluation
 results of Section 6, and the scripts that draw the paper's figures.
 
-## Layout
-
-| Directory | Contents | Paper |
-|---|---|---|
-| `phase0/` | HPA next to a vertical controller on a real k3s cluster: manifests, VPA emulator, upstream VPA setup, load generator, monitors, run scripts, raw results (`runs/`) | Section 3 |
-| `phase1/envs/` | the simulator (`joint_hv_env.py`) and the real-cluster backend (`real_backend.py`) | Section 4 |
-| `phase1/calibration/` | calibration sweeps, the fit of the service model, the sensitivity re-evaluation | Section 4.2 |
-| `phase1/` | training (`train.py`), TANDEM (`cvar_bellman_qrdqn.py`), baselines, evaluation and aggregation scripts | Sections 4 to 6 |
-| `phase1/build_traces.py` | rebuilds the workload traces of both families from the public datasets | Section 5.1 |
-| `phase1/eval/` | every evaluation result as CSV | Section 6 |
-| `phase2/` | several functions sharing a cluster with limited capacity | Section 6.7 |
-| `paper/figures/` | the scripts that draw the paper's figures, and the figures | all |
-
 ## Setup
 
 ```bash
