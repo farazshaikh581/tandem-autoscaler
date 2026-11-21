@@ -4,20 +4,14 @@ Every multi-seed claim in the README up to this point (issues #2, the #11
 multi-seed-azure followup) is reported as mean +- std, never a formal test.
 This adds one, honestly bounded by what the available seeds can support.
 
-Seed counts are NOT uniform across algos: the original pass had 3 seeds
-(0-2) for all 5 multi-seed algos; a follow-up run (motivated by this file's
-own power calculation) added 4 more seeds (3-6) for qrdqn and
-cvar-bellman-qrdqn specifically, since that was the one pairwise comparison
-cheap enough to formally nail down. Each pairwise test below uses the
-INTERSECTION of the two algos' available seeds, discovered by scanning for
-eval CSVs rather than assumed -- so qrdqn vs cvar-bellman-qrdqn now runs at
-n=7, every other pair stays at n=3. This matters for what a Wilcoxon
-signed-rank test can even do: it cannot reach p<0.05 two-sided at n=3 no
-matter the effect size (min achievable p = 2/2^3 = 0.25, a combinatorial
-floor), but at n=7 it can (min p = 2/2^7 = 0.0156). A paired t-test is
-treated as the primary test throughout (works at any n>=2, though few
-degrees of freedom need a large effect to reach significance at small n).
-With ~280 pairwise tests per dataset (10 algo pairs x 4 classes x 7
+Every learned controller of the main comparison is now evaluated on seeds 0-6
+(the Bitbrains seeds trained after the Azure switch carry a "bb" tag token).
+Seeds are still discovered by scanning for eval CSVs, and each pairwise test uses
+the intersection of the two algos' seeds, so a missing run lowers n instead of
+breaking the test. A Wilcoxon signed-rank test cannot reach p<0.05 two-sided at
+n=3 (min achievable p = 2/2^3 = 0.25), but at n=7 it can (min p = 2/2^7 =
+0.0156). A paired t-test is treated as the primary test throughout.
+With ~1000 pairwise tests per dataset (36 algo pairs x 4 classes x 7
 metrics), raw p<0.05 would flag ~14 "significant" results by chance alone
 even if nothing were real, so significance is flagged on the
 Benjamini-Hochberg-corrected p-value, not the raw one.
@@ -34,7 +28,9 @@ import pandas as pd
 from scipy import stats
 
 HERE = os.path.dirname(__file__)
-ALGOS = ["qrdqn", "cvar-qrdqn", "cvar-bellman-qrdqn", "ppo", "dqn"]
+ALGOS = ["qrdqn", "cvar-qrdqn", "cvar-bellman-qrdqn", "ppo", "dqn", "trpo", "sac-discrete",
+         "pandey-ppo", "pandey-ddpg"]
+TANDEM = "cvar-bellman-qrdqn"
 METRICS = ["sla_pct", "mean_lat_ms", "mean_cost_vcpu", "churn",
            "replica_reversals", "cpu_reversals", "mem_reversals"]
 ALPHA = 0.05
@@ -127,17 +123,17 @@ def main() -> None:
               f"{w_sig} of {len(grp)} tests at this n reach raw Wilcoxon p<0.05")
     print(f"wrote {out}\n")
 
-    for a, b in [("qrdqn", "cvar-bellman-qrdqn"), ("cvar-qrdqn", "cvar-bellman-qrdqn")]:
-        sub = df[(df.algo_a == a) & (df.algo_b == b)]
-        n_seeds = sub["n_seeds"].iloc[0]
-        print(f"== {a} vs {b} (n={n_seeds}, BH-significant only) ==")
+    for other in ALGOS:
+        if other == TANDEM:
+            continue
+        sub = df[((df.algo_a == other) & (df.algo_b == TANDEM)) | ((df.algo_a == TANDEM) & (df.algo_b == other))]
+        print(f"== TANDEM vs {other} (n={sub['n_seeds'].iloc[0]}, BH-significant only) ==")
         sig = sub[sub.sig_bh]
         if sig.empty:
             print("  (none reach BH-corrected significance)")
         else:
-            print(sig[["workload", "metric", "mean_a", "mean_b", "t_p", "t_p_bh"]].to_string(index=False))
+            print(sig[["algo_a", "workload", "metric", "mean_a", "mean_b", "t_p", "t_p_bh"]].to_string(index=False))
         print()
-
 
 if __name__ == "__main__":
     main()

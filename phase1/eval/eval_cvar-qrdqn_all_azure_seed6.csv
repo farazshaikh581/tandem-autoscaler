@@ -1,0 +1,5 @@
+workload,sla_pct,mean_lat_ms,mean_cost_vcpu,churn,replica_reversals,cpu_reversals,mem_reversals
+cpu-bound,99.8,6.0,3.85,130,2,0,10
+memory-bound,97.9,5.8,0.3,149,17,5,2
+io-bound,99.7,6.2,3.22,83,2,0,0
+mixed,99.0,5.4,4.95,160,0,20,0

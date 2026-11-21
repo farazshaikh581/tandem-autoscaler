@@ -92,8 +92,17 @@ class RealClusterBackend:
 
     def __init__(self, trace: dict, rng: np.random.Generator, intensity: dict,
                  max_rps: int = DEFAULT_MAX_RPS, step_seconds: int = DEFAULT_STEP_SECONDS,
-                 app: str = "cpu-burn"):
+                 app: str = "cpu-burn", mem_actuation: str = "inplace"):
         guard_namespace(NS)
+        if mem_actuation not in ("inplace", "recreate"):
+            raise ValueError(f"mem_actuation {mem_actuation!r}")
+        # "inplace": memory goes through the pod resize subresource, like CPU.
+        # "recreate": a memory change is written to the Deployment template and rolled
+        # out, which is how a stock VPA actuates (evict and recreate). After an OOM
+        # kill the container sits in CrashLoopBackOff, and the kubelet keeps its
+        # restart back-off (up to 5 min) even when the limit is raised in place;
+        # recreated pods start clean. Use "recreate" when comparing with KEDA+VPA.
+        self.mem_actuation = mem_actuation
         preset = APP_PRESETS[app]
         self.deploy, self.container, self.selector = preset["deploy"], preset["container"], preset["selector"]
         self.base_cpu_m, self.base_mem_mi = preset["base_cpu_m"], preset["base_mem_mi"]
@@ -216,10 +225,25 @@ class RealClusterBackend:
             except RuntimeError as e:
                 print(f"  [warn] resize {p} failed (kept prior): {e}")
 
+    def _set_template(self, cpu_m: int, mem_mi: int) -> None:
+        """Write (cpu_m, mem_mi) to the Deployment template and wait for the rollout,
+        keeping the request:limit ratios (mem_actuation="recreate")."""
+        cpu_r, mem_r = self._qos_ratios()
+        if mem_r <= 1.0:
+            mem_r = 2.0                      # web-service*.yaml ship limits = 2x requests
+        if cpu_r <= 1.0:
+            cpu_r = 2.5
+        kubectl(["set", "resources", f"deploy/{self.deploy}", "-n", NS, "-c", self.container,
+                 f"--requests=cpu={cpu_m}m,memory={mem_mi}Mi",
+                 f"--limits=cpu={int(round(cpu_m * cpu_r))}m,memory={int(round(mem_mi * mem_r))}Mi"])
+        kubectl(["rollout", "status", f"deploy/{self.deploy}", "-n", NS, "--timeout=120s"], timeout=130)
+
     # ---- SimBackend-compatible API ----
     def reset(self, start: int) -> None:
         self.t = start
         kubectl(["scale", "deploy", self.deploy, "-n", NS, f"--replicas={self.base_replicas}"], timeout=30)
+        if self.mem_actuation == "recreate":
+            self._set_template(self.base_cpu_m, self.base_mem_mi)
         self._resize_all(self.base_cpu_m, self.base_mem_mi)
         self._set_ballast_all(0)          # clear any residual working set from a prior run
         self.s = SysState()
@@ -234,6 +258,8 @@ class RealClusterBackend:
         if new_rep != s.target_replicas:
             kubectl(["scale", "deploy", self.deploy, "-n", NS, f"--replicas={new_rep}"], timeout=30)
             s.target_replicas = new_rep
+        if self.mem_actuation == "recreate" and new_mem != s.mem_req:
+            self._set_template(new_cpu, new_mem)
         # resize every step so scale-up pods inherit the current request too
         self._resize_all(new_cpu, new_mem)
         # re-sync `.s` to what the cluster actually accepted (memory may not shrink)

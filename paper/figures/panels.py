@@ -221,51 +221,60 @@ def heldout(axes):
     return h, l
 
 
+def _reps():
+    with open(os.path.join(fs.EVAL, "real_reps_summary.csv")) as f:
+        return {(r["cell"], r["family"], r["controller"]): r for r in csv.DictReader(f)}
+
+
 def simreal(axes):
+    """Simulator (open) and real cluster (filled: mean of five runs, bar: min to max) on the
+    same window, model seeds 0-4 (phase1/eval/real_reps_summary.csv)."""
     exps = [("cpu-bound_2node", "CPU app, CPU-bound,\n2 workers"), ("cpu-bound_4node", "CPU app, CPU-bound,\n4 workers"),
-            ("io-bound_io-burn", "IO app, IO-bound"), ("mixed_io-burn", "IO app, mixed")]
+            ("io-bound_io-burn-perf", "IO app, IO-bound"), ("mixed_io-burn-perf", "IO app, mixed")]
     learners = [("cvar-bellman-qrdqn", fs.BLUE), ("qrdqn", fs.AQUA)]
-    tag = {"azure": "azure", "bitbrains": "bb"}
+    reps = _reps()
     centers = [e * 2.4 for e in range(len(exps))]
     for ax, (fam, name) in zip(axes, fs.FAMILIES):
         for e, (exp, _) in enumerate(exps):
             if e % 2 == 0:
                 ax.axhspan(centers[e] - 0.95, centers[e] + 0.95, color="#f4f4f4", lw=0, zorder=0)
             for k, (algo, color) in enumerate(learners):
-                with open(os.path.join(fs.EVAL, f"sim_vs_real_{algo}_{exp}_{tag[fam]}.csv")) as f:
-                    r = list(csv.DictReader(f))
-                s = 100 * np.mean([float(q["sim_sla"]) for q in r]); rr = 100 * np.mean([float(q["real_sla"]) for q in r])
+                r = reps[(exp, fam, algo)]
+                s, m = float(r["sim_mean"]), float(r["real_mean"])
+                lo, hi = float(r["real_min"]), float(r["real_max"])
                 y = centers[e] + (k - 0.5) * 0.8
-                if abs(rr - s) > 1:
-                    ax.annotate("", xy=(rr, y), xytext=(s, y), arrowprops=dict(arrowstyle="-|>", color=color, lw=1.1,
-                                shrinkA=3.5, shrinkB=3.5, mutation_scale=7))
+                ax.plot([lo, hi], [y, y], color=color, lw=1.0, alpha=0.55, zorder=2, solid_capstyle="butt")
                 ax.plot(s, y, "o", ms=4.2, mfc="white", mec=color, mew=1.2, zorder=3)
-                ax.plot(rr, y, "o", ms=3.0 if abs(rr - s) <= 1 else 4.2, mfc=color, mec=color, zorder=4)
-        ax.set_xlim(10, 105); ax.set_xticks([20, 60, 100]); title(ax, name)
+                ax.plot(m, y, "o", ms=4.2, mfc=color, mec=color, zorder=4)
+        ax.set_xlim(0, 105); ax.set_xticks([0, 50, 100]); title(ax, name)
         ax.set_xlabel("SLO compliance (%)"); fs.clean(ax); ax.tick_params(axis="y", length=0)
     axes[0].set_yticks(centers); axes[0].set_yticklabels([l for _, l in exps], fontsize=6.6)
     axes[0].set_ylim(centers[-1] + 1.0, -1.0); axes[1].set_ylim(centers[-1] + 1.0, -1.0)
     axes[1].set_yticks(centers); axes[1].tick_params(labelleft=False)
     h = [plt.Line2D([], [], marker="o", ls="none", ms=4.2, mfc="white", mec=fs.INK, mew=1.1),
-         plt.Line2D([], [], marker="o", ls="none", ms=4.2, mfc=fs.INK, mec=fs.INK),
+         plt.Line2D([], [], marker="o", ls="-", lw=1.0, ms=4.2, mfc=fs.INK, mec=fs.INK, color="#999999"),
          plt.Line2D([], [], color=fs.BLUE, lw=1.6), plt.Line2D([], [], color=fs.AQUA, lw=1.6)]
-    return h, ["simulator", "real cluster", "TANDEM", "QR-DQN"]
+    return h, ["simulator", "real (5 runs)", "TANDEM", "QR-DQN"]
 
 
 def keda(axes):
+    """Mean of five runs per controller (whisker: min to max). The learned controllers'
+    memory changes are rolled out like the VPA's (evict and recreate)."""
     ctrl = [("keda", "KEDA", "#c4c4c4"), ("keda-vpa", "KEDA+VPA", fs.MUTED),
-            ("QR-DQN", "QR-DQN", fs.AQUA), ("Option B", "TANDEM", fs.BLUE)]
+            ("qrdqn", "QR-DQN", fs.AQUA), ("cvar-bellman-qrdqn", "TANDEM", fs.BLUE)]
+    reps = _reps()
     w = 0.2
     for c, (wl, name) in enumerate([("cpu-bound", "CPU-bound"), ("memory-bound", "memory-bound")]):
         ax = axes[c]
         for fi, (fam, fname) in enumerate(fs.FAMILIES):
-            sfx = "" if fam == "azure" else "_bitbrains"
-            with open(os.path.join(fs.EVAL, f"keda_vs_rl_summary{sfx}.csv")) as f:
-                rows = list(csv.DictReader(f))
             for k, (key, lab, color) in enumerate(ctrl):
-                v = float(next(r["sla_pct"] for r in rows if r["workload"] == wl and r["controller"] == key))
+                cell = f"kedacmp_{wl}" + ("-recreate" if wl == "memory-bound" and key in ("qrdqn", "cvar-bellman-qrdqn") else "")
+                r = reps[(cell, fam, key)]
+                v, lo, hi = float(r["real_mean"]), float(r["real_min"]), float(r["real_max"])
                 xi = fi + (k - 1.5) * w
                 ax.bar(xi, max(v, 0.6), w * 0.9, color=color, lw=0, zorder=2, label=lab if (c == 0 and fi == 0) else None)
+                if hi - lo > 0.1:
+                    ax.plot([xi, xi], [lo, hi], color=fs.INK, lw=0.7, zorder=3)
                 if v < 1:
                     ax.text(xi, 2, "0", ha="center", va="bottom", fontsize=6, color=fs.INK)
         ax.set_xticks([0, 1]); ax.set_xticklabels([n for _, n in fs.FAMILIES]); ax.set_ylim(0, 100)

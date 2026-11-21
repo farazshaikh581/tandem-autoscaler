@@ -69,6 +69,10 @@ python3 aggregate_eval.py --suffix azure && python3 stat_significance.py --tag a
 ```
 
 The other learners use `--algo cvar-qrdqn | dqn | ppo | trpo | sac-discrete | pandey-ppo | pandey-ddpg`.
+Every learned controller is trained with seeds 0-6 on both trace families;
+`run_seeds7_lane.sh` runs a list of these jobs on one core. `eval_perf.py --family azure`
+(or `bitbrains`) re-runs the evaluation and records the served fraction and the
+percentiles of the interval latency for every controller (`eval/perf/`).
 
 **Action-space ablation (6.2):** add `--scaling-mode horizontal` or `--scaling-mode vertical`.
 
@@ -84,7 +88,13 @@ machines use `train.py --domain-rand`.
 `phase0/web-service-io.yaml`, then run `eval_real.py` (learned controllers),
 `eval_real_keda.py` (KEDA, see `keda/README.md`) and `compare_sim_real.py`; the scripts
 `run_real_bb.sh`, `run_keda_real.sh` and `run_coupling_bb.sh` list the windows and
-settings used.
+settings used. `run_real_reps.sh` repeats every real-cluster cell five times from a
+freshly restarted deployment (`eval/real_reps/`). `run_real_mem_recreate.sh` reruns the
+memory-bound KEDA cell with the learned controllers' memory changes rolled out on the
+Deployment, as the VPA applies them (`eval_real.py --mem-actuation recreate`).
+`run_real_io_perf.sh` reruns the IO-application cells with the host CPU frequency governor
+set to `performance`. `real_reps_summary.py` aggregates the runs into
+`eval/real_reps_summary.csv`.
 
 **Co-located functions (6.7):** `python3 ../phase2/eval_multifn.py`.
 

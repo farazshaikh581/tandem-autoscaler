@@ -46,6 +46,8 @@ def main() -> None:
     ap.add_argument("--seed", type=int, default=0)
     ap.add_argument("--cvar-alpha", type=float, default=0.25)
     ap.add_argument("--trace-family", choices=TRACE_FAMILIES, default="azure")
+    ap.add_argument("--mem-actuation", choices=["inplace", "recreate"], default="inplace",
+                    help="recreate = roll the Deployment on a memory change, as a stock VPA does")
     ap.add_argument("--out", default=None)
     args = ap.parse_args()
     set_trace_family(args.trace_family, args.cluster_tag)
@@ -54,7 +56,7 @@ def main() -> None:
     env = JointHVEnv(workload=args.workload, episode_len=args.steps, backend="real",
                      seed=args.seed,
                      backend_kwargs=dict(max_rps=args.max_rps, step_seconds=args.step_seconds,
-                                          app=args.app))
+                                          app=args.app, mem_actuation=args.mem_actuation))
     model = load_model(args.algo, mpath, env, cvar_alpha=args.cvar_alpha, seed=args.seed)
     print(f"[eval-real] {args.algo} on '{args.workload}' vs real cluster ({args.app}), "
           f"{args.steps} steps @ {args.max_rps} max rps")

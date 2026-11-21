@@ -39,18 +39,26 @@ BASELINES = ["hpa-only", "hpa-vpa", "slo-cost-aware", "slo-cost-aware-vpa",
 OUT_DIR = os.path.join(HERE, "knee_sensitivity")
 
 
+LEARNED = ["qrdqn", "cvar-bellman-qrdqn", "cvar-qrdqn", "ppo", "dqn", "trpo", "sac-discrete",
+           "pandey-ppo", "pandey-ddpg"]
+
+
+def model_tag(family: str, seed: int, algo: str) -> str:
+    """Model-file tag of one (algo, seed). Azure: azure / azure_seed<s>. Bitbrains: the
+    original Phase 1 names ("" and seed1/seed2) where they exist, else bb_seed<s>."""
+    if family == "azure":
+        return "azure" if seed == 0 else f"azure_seed{seed}"
+    if seed == 0:
+        return ""
+    old = f"seed{seed}"
+    if seed < 3 and os.path.exists(os.path.join(PHASE1, "models", f"{algo}_all_{old}.zip")):
+        return old
+    return f"bb_seed{seed}"
+
+
 def rl_jobs(family: str) -> list[tuple[str, int, str]]:
-    """(algo, seed, model tag) for the multi-seed RL rows of the main comparison."""
-    jobs = []
-    for algo in ("qrdqn", "cvar-bellman-qrdqn", "cvar-qrdqn", "ppo", "dqn"):
-        seeds = SEEDS7 if algo in ("qrdqn", "cvar-bellman-qrdqn") else SEEDS3
-        for s in seeds:
-            if family == "azure":
-                tag = "azure" if s == 0 else f"azure_seed{s}"
-            else:  # Bitbrains: seeds 0-2 under the original names, 3-6 under bb_seed<n>
-                tag = "" if s == 0 else (f"seed{s}" if s < 3 else f"bb_seed{s}")
-            jobs.append((algo, s, tag))
-    return jobs
+    """(algo, seed, model tag) for every learned row of the main comparison, 7 seeds each."""
+    return [(a, s, model_tag(family, s, a)) for a in LEARNED for s in SEEDS7]
 
 
 def run(family: str, condition: str) -> None:
@@ -86,9 +94,10 @@ def run(family: str, condition: str) -> None:
             continue
         name = f"{algo}_all{('_' + tag) if tag else ''}"
         mpath = os.path.join(PHASE1, "models", name)
-        env = train.make_env("all", seed)
+        mode = "continuous" if algo.startswith("pandey") else "discrete"
+        env = train.make_env("all", seed, action_mode=mode)
         model = train.load_model(algo, mpath, env, seed=seed)
-        emit(algo, seed, train.evaluate(model, seed))
+        emit(algo, seed, train.evaluate(model, seed, action_mode=mode))
 
     tu = eb.HPA_TARGET_UTIL
     ctrl = {
@@ -101,13 +110,15 @@ def run(family: str, condition: str) -> None:
         "mpc": lambda: eb.MPCController(),
         "coscal": eb._make_coscal,
     }
+    # baselines have no training randomness; seeds change only the evaluation episodes
     for name in BASELINES:
-        if (name, 0) in done:
-            continue
-        c = ctrl[name]()
-        if c is None:
-            continue
-        emit(name, 0, eb.evaluate_policy(c, 0))
+        for seed in SEEDS7:
+            if (name, seed) in done:
+                continue
+            c = ctrl[name]()
+            if c is None:
+                break
+            emit(name, seed, eb.evaluate_policy(c, seed))
     f.close()
 
 
