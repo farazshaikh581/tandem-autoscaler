@@ -38,10 +38,10 @@ then run
 cd phase1 && python3 build_traces.py && python3 ../phase2/derive_profiles.py --rebuild
 ```
 
-Trained models are not stored in git. Download `models.tar.gz` from the latest release
-and unpack it into `phase1/` (it creates `phase1/models/`). It contains every model whose
-results appear in the paper, except the 224 models of the reward-weight sweep, whose
-results are in `phase1/eval/`.
+Trained models are not stored in git. Download `models.tar.gz` from release v1.0 and
+`models-seeds.tar.gz` from release v1.1, and unpack both into `phase1/` (they create
+`phase1/models/`). Together they contain every model whose results appear in the paper,
+except the 224 models of the reward-weight sweep, whose results are in `phase1/eval/`.
 
 ## Reproducing the paper
 
